@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 68.545 sec - in Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy

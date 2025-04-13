@@ -1,0 +1,269 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-04-13T11:18:27.664Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2876000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Launch BestBuy Website, Select a Country and Validate URL is valid",
+        "description": "",
+        "id": "bestbuy-purchase;launch-bestbuy-website--select-a-country-and-validate-url-is-valid;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "duration": 2654000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "As a user i should launch BestBuy Website",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.as_a_user_i_should_launch_best_buy_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8830000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should \"\u0026COUNTRY NAME\u0026\" select Country",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026COUNTRY NAME\u0026\"",
+                  "offset": 9
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.i_should_select_country(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10918000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should validate URL \"\u0026CURRENT URL\u0026\" is valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026CURRENT URL\u0026\"",
+                  "offset": 22
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldValidateURLIsValid(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1001"
+          },
+          {
+            "name": "@TC_ID_1002"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-13T11:18:53.105Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Create Account with No Test Data and Invalid Data",
+        "description": "",
+        "id": "bestbuy-purchase;create-account-with-no-test-data-and-invalid-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "duration": 25964000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "As a user i should navigate to Create Account page",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldNavigateToCreateAccountPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 333000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should not enter any data in input fields and Click on Create an Account button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldNotEnterAnyDataInInputFieldsAndClickOnCreateAnAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1226000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should check the mandatory fields \"\u0026VALIDATION MESSAGES\u0026\" validation messages",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026VALIDATION MESSAGES\u0026\"",
+                  "offset": 36
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldCheckTheMandatoryFieldsValidationMessages(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3265000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should enter invalid data \"\u0026INVALID DATA\u0026\" in input fields and Click on Create an Account button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026INVALID DATA\u0026\"",
+                  "offset": 28
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldEnterInvalidDataInInputFieldsAndClickOnCreateAnAccountButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 473000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should check all invalid messages \"\u0026INVALID VALIDATION MESSAGES\u0026\" are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026INVALID VALIDATION MESSAGES\u0026\"",
+                  "offset": 36
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldCheckAllInvalidMessagesAreDisplayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4843000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should enter valid data \"\u0026VALID DATA\u0026\" in input fields and Click on Create an Account button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026VALID DATA\u0026\"",
+                  "offset": 26
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldEnterValidDataInInputFieldsAndClickOnCreateAnAccountButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4103000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should check account is created successfully",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldCheckAccountIsCreatedSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1003"
+          },
+          {
+            "name": "@TC_ID_1004"
+          },
+          {
+            "name": "@TC_ID_1005"
+          },
+          {
+            "name": "@TC_ID_1006"
+          }
+        ]
+      }
+    ],
+    "name": "BestBuy Purchase",
+    "description": "",
+    "id": "bestbuy-purchase",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature",
+    "tags": []
+  }
+]
