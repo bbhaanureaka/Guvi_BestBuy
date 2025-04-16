@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2025-04-16T04:10:12.341Z",
+        "start_timestamp": "2025-04-16T07:28:57.819Z",
         "before": [
           {
             "result": {
-              "duration": 3639000000,
+              "duration": 4272000000,
               "status": "passed"
             },
             "match": {
@@ -22,9 +22,8 @@
         "after": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-G0UQGSFP\u0027, ip: \u0027192.168.199.43\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\\Users\\BHAANU~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52604}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: d48c9ce38295bedc019989e9200adf10\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)\r\n",
-              "duration": 16000000,
-              "status": "failed"
+              "duration": 12000000,
+              "status": "passed"
             },
             "match": {
               "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
@@ -36,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1831000000,
+              "duration": 2779000000,
               "status": "passed"
             },
             "line": 5,
@@ -48,9 +47,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.i_should_select_country(BestBuySteps.java:32)\r\n\tat ✽.I should \"\u0026COUNTRY NAME\u0026\" select Country(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:6)\r\n",
-              "duration": 563000000,
-              "status": "failed"
+              "duration": 9982000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I should \"\u0026COUNTRY NAME\u0026\" select Country",
@@ -67,8 +65,8 @@
           },
           {
             "result": {
-              "duration": 2000000,
-              "status": "skipped"
+              "duration": 8689000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I should validate URL \"\u0026CURRENT URL\u0026\" is valid",
@@ -96,6 +94,3083 @@
           },
           {
             "name": "@TC_ID_1002"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-16T07:29:23.867Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Create Account with No Test Data and Invalid Data",
+        "description": "",
+        "id": "bestbuy-purchase;create-account-with-no-test-data-and-invalid-data;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-G0UQGSFP\u0027, ip: \u0027192.168.199.43\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\\Users\\BHAANU~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cfaceeb228dae2bfffd3eb7a2c48880e\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)\r\n",
+              "duration": 543000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldNavigateToCreateAccountPage(BestBuySteps.java:42)\r\n\tat ✽.As a user i should navigate to Create Account page(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:15)\r\n",
+              "duration": 64000000,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "As a user i should navigate to Create Account page",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldNavigateToCreateAccountPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I should not enter any data in input fields and Click on Create an Account button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldNotEnterAnyDataInInputFieldsAndClickOnCreateAnAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I should check the mandatory fields \"\u0026VALIDATION MESSAGES\u0026\" validation messages",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026VALIDATION MESSAGES\u0026\"",
+                  "offset": 36
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldCheckTheMandatoryFieldsValidationMessages(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I should enter invalid data \"\u0026INVALID DATA\u0026\" in input fields and Click on Create an Account button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026INVALID DATA\u0026\"",
+                  "offset": 28
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldEnterInvalidDataInInputFieldsAndClickOnCreateAnAccountButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I should check all invalid messages \"\u0026INVALID VALIDATION MESSAGES\u0026\" are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026INVALID VALIDATION MESSAGES\u0026\"",
+                  "offset": 36
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldCheckAllInvalidMessagesAreDisplayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I should enter valid data \"\u0026VALID DATA\u0026\" in input fields and Click on Create an Account button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026VALID DATA\u0026\"",
+                  "offset": 26
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldEnterValidDataInInputFieldsAndClickOnCreateAnAccountButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "I should check account is created successfully",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldCheckAccountIsCreatedSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1003"
+          },
+          {
+            "name": "@TC_ID_1004"
+          },
+          {
+            "name": "@TC_ID_1005"
+          },
+          {
+            "name": "@TC_ID_1006"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-16T07:29:24.559Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Login with Existing User",
+        "description": "",
+        "id": "bestbuy-purchase;login-with-existing-user;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-G0UQGSFP\u0027, ip: \u0027192.168.199.43\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\\Users\\BHAANU~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cfaceeb228dae2bfffd3eb7a2c48880e\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)\r\n",
+              "duration": 7000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldNavigateToSignInButton(BestBuySteps.java:84)\r\n\tat ✽.As a user i should navigate to Sign In button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:29)\r\n",
+              "duration": 38000000,
+              "status": "failed"
+            },
+            "line": 29,
+            "name": "As a user i should navigate to Sign In button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldNavigateToSignInButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "I enter UserName \"\u0026USERNAME\u0026\" and click Continue",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026USERNAME\u0026\"",
+                  "offset": 17
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iEnterUserNameAndClickContinue(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "I select Use Password \"\u0026PASSWORD\u0026\" ,enter Password and click Continue",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026PASSWORD\u0026\"",
+                  "offset": 22
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iSelectUsePasswordEnterPasswordAndClickContinue(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "I should check account is logged in successfully",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldCheckAccountIsLoggedInSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1007"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-16T07:29:24.658Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Navigate to Deals Menu , Deals and Deals by Category Sub-Menu and its Pages and Validate URL",
+        "description": "",
+        "id": "bestbuy-purchase;navigate-to-deals-menu---deals-and-deals-by-category-sub-menu-and-its-pages-and-validate-url;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-G0UQGSFP\u0027, ip: \u0027192.168.199.43\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\\Users\\BHAANU~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cfaceeb228dae2bfffd3eb7a2c48880e\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)\r\n",
+              "duration": 4000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)\r\n\tat ✽.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:39)\r\n",
+              "duration": 23000000,
+              "status": "failed"
+            },
+            "line": 39,
+            "name": "As a user i should click on Menu Button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "I should click on Deals Sub-menu",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldClickOnDealsSubMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "I should get all the Deals Pages and Navigate to each page",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheDealsPagesAndNavigateToEachPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "I should validate Sub-Menu URL \"\u0026DEALSPAGEURL\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026DEALSPAGEURL\u0026\"",
+                  "offset": 31
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldValidateSubMenuURL(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1008"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-16T07:29:24.785Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "Navigate to Deals Menu , Deals by Category Sub-Menu and its Pages and Validate URL",
+        "description": "",
+        "id": "bestbuy-purchase;navigate-to-deals-menu---deals-by-category-sub-menu-and-its-pages-and-validate-url;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-G0UQGSFP\u0027, ip: \u0027192.168.199.43\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\\Users\\BHAANU~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cfaceeb228dae2bfffd3eb7a2c48880e\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)\r\n",
+              "duration": 6000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)\r\n\tat ✽.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:50)\r\n",
+              "duration": 22000000,
+              "status": "failed"
+            },
+            "line": 50,
+            "name": "As a user i should click on Menu Button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "I should click on Support and Services Sub-menu",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldClickOnSupportAndServicesSubMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "I should get all the Support and Services Pages and Navigate to each page",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheSupportAndServicesPagesAndNavigateToEachPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "I should validate Support and Services Sub-Menu URL \"\u0026SUPPORTANDSERVICESPAGEURL\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026SUPPORTANDSERVICESPAGEURL\u0026\"",
+                  "offset": 52
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldValidateSupportAndServicesSubMenuURL(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1009"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-16T07:29:24.869Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 68,
+        "name": "Navigate to Deals Menu , Brands Sub-Menu and its Pages and Validate URL",
+        "description": "",
+        "id": "bestbuy-purchase;navigate-to-deals-menu---brands-sub-menu-and-its-pages-and-validate-url;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-G0UQGSFP\u0027, ip: \u0027192.168.199.43\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\\Users\\BHAANU~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cfaceeb228dae2bfffd3eb7a2c48880e\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)\r\n",
+              "duration": 6000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)\r\n\tat ✽.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:61)\r\n",
+              "duration": 17000000,
+              "status": "failed"
+            },
+            "line": 61,
+            "name": "As a user i should click on Menu Button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 62,
+            "name": "I should click on Brands Sub-menu",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldClickOnBrandsSubMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 63,
+            "name": "I should get all the Brands Pages and Navigate to each page",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheBrandsPagesAndNavigateToEachPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 64,
+            "name": "I should validate Brands Sub-Menu URL \"\u0026BRANDSPAGEURL\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026BRANDSPAGEURL\u0026\"",
+                  "offset": 38
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldValidateBrandsSubMenuURL(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1010"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-16T07:29:24.963Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 79,
+        "name": "Navigate to Appliances Menu and Validate Menu",
+        "description": "",
+        "id": "bestbuy-purchase;navigate-to-appliances-menu-and-validate-menu;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-G0UQGSFP\u0027, ip: \u0027192.168.199.43\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\\Users\\BHAANU~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cfaceeb228dae2bfffd3eb7a2c48880e\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)\r\n",
+              "duration": 7000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)\r\n\tat ✽.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:72)\r\n",
+              "duration": 24000000,
+              "status": "failed"
+            },
+            "line": 72,
+            "name": "As a user i should click on Menu Button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 73,
+            "name": "I should click on Appliances Sub-menu",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldClickOnAppliancesSubMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 74,
+            "name": "I should get all the Appliances Sub Menu Pages and Validate the Sub Menus \"\u0026APPLIANCESSUBMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026APPLIANCESSUBMENUS\u0026\"",
+                  "offset": 74
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheAppliancesSubMenuPagesAndValidateTheSubMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 75,
+            "name": "I should get all the Appliances Menu Pages and Validate the Menus \"\u0026APPLIANCESMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026APPLIANCESMENUS\u0026\"",
+                  "offset": 66
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheAppliancesMenuPagesAndValidateTheMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1011"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-16T07:29:25.047Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 90,
+        "name": "Navigate to TV \u0026 Home Theatre Menu and Validate Menu",
+        "description": "",
+        "id": "bestbuy-purchase;navigate-to-tv-\u0026-home-theatre-menu-and-validate-menu;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-G0UQGSFP\u0027, ip: \u0027192.168.199.43\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\\Users\\BHAANU~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cfaceeb228dae2bfffd3eb7a2c48880e\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)\r\n",
+              "duration": 4000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)\r\n\tat ✽.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:83)\r\n",
+              "duration": 28000000,
+              "status": "failed"
+            },
+            "line": 83,
+            "name": "As a user i should click on Menu Button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 84,
+            "name": "I should click on TV \u0026 Home Theatre Sub-menu",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldClickOnTVHomeTheatreSubMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 85,
+            "name": "I should get all the TV \u0026 Home Theatre  Sub Menu Pages and Validate the Sub Menus \"\u0026TVTHSUBMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026TVTHSUBMENUS\u0026\"",
+                  "offset": 82
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheTVHomeTheatreSubMenuPagesAndValidateTheSubMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 86,
+            "name": "I should get all the TV \u0026 Home Theatre  Menu Pages and Validate the Menus \"\u0026TVHTMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026TVHTMENUS\u0026\"",
+                  "offset": 74
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheTVHomeTheatreMenuPagesAndValidateTheMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1012"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-16T07:29:25.137Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 101,
+        "name": "Navigate to Computers \u0026 Tablets Menu and Validate Menu",
+        "description": "",
+        "id": "bestbuy-purchase;navigate-to-computers-\u0026-tablets-menu-and-validate-menu;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-G0UQGSFP\u0027, ip: \u0027192.168.199.43\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\\Users\\BHAANU~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cfaceeb228dae2bfffd3eb7a2c48880e\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)\r\n",
+              "duration": 8000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)\r\n\tat ✽.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:94)\r\n",
+              "duration": 26000000,
+              "status": "failed"
+            },
+            "line": 94,
+            "name": "As a user i should click on Menu Button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 95,
+            "name": "I should click on Computers \u0026 Tablets Sub-menu",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldClickOnComputersTabletsSubMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 96,
+            "name": "I should get all the Computers \u0026 Tablets Sub Menu Pages and Validate the Sub Menus \"\u0026CTSUBMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026CTSUBMENUS\u0026\"",
+                  "offset": 83
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheComputersTabletsSubMenuPagesAndValidateTheSubMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 97,
+            "name": "I should get all the Computers \u0026 Tablets Menu Pages and Validate the Menus \"\u0026CTMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026CTMENUS\u0026\"",
+                  "offset": 75
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheComputersTabletsMenuPagesAndValidateTheMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1013"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-16T07:29:25.230Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 112,
+        "name": "Navigate to Cell Phones Menu and Validate Menu",
+        "description": "",
+        "id": "bestbuy-purchase;navigate-to-cell-phones-menu-and-validate-menu;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-G0UQGSFP\u0027, ip: \u0027192.168.199.43\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\\Users\\BHAANU~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cfaceeb228dae2bfffd3eb7a2c48880e\r\n\tat sun.reflect.GeneratedConstructorAccessor27.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)\r\n",
+              "duration": 6000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)\r\n\tat ✽.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:105)\r\n",
+              "duration": 18000000,
+              "status": "failed"
+            },
+            "line": 105,
+            "name": "As a user i should click on Menu Button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 106,
+            "name": "I should click on Cell Phones Sub-menu",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldClickOnCellPhonesSubMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 107,
+            "name": "I should get all the Cell Phones Sub Menu Pages and Validate the Sub Menus \"\u0026CPSUBMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026CPSUBMENUS\u0026\"",
+                  "offset": 75
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheCellPhonesSubMenuPagesAndValidateTheSubMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 108,
+            "name": "I should get all the Cell Phones Menu Pages and Validate the Menus \"\u0026CPMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026CPMENUS\u0026\"",
+                  "offset": 67
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheCellPhonesMenuPagesAndValidateTheMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1014"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-16T07:29:25.293Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 123,
+        "name": "Navigate to Audio and Head Phones Menu and Validate Menu",
+        "description": "",
+        "id": "bestbuy-purchase;navigate-to-audio-and-head-phones-menu-and-validate-menu;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-G0UQGSFP\u0027, ip: \u0027192.168.199.43\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\\Users\\BHAANU~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cfaceeb228dae2bfffd3eb7a2c48880e\r\n\tat sun.reflect.GeneratedConstructorAccessor27.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)\r\n",
+              "duration": 6000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)\r\n\tat ✽.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:116)\r\n",
+              "duration": 13000000,
+              "status": "failed"
+            },
+            "line": 116,
+            "name": "As a user i should click on Menu Button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 117,
+            "name": "I should click on Audio and Head Phones Sub-menu",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldClickOnAudioAndHeadPhonesSubMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 118,
+            "name": "I should get all the Audio and Head Phones Sub Menu Pages and Validate the Sub Menus \"\u0026AHPSUBMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026AHPSUBMENUS\u0026\"",
+                  "offset": 85
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheAudioAndHeadPhonesSubMenuPagesAndValidateTheSubMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 119,
+            "name": "I should get all the Audio and Head Phones Menu Pages and Validate the Menus \"\u0026AHPMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026AHPMENUS\u0026\"",
+                  "offset": 77
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheAudioAndHeadPhonesMenuPagesAndValidateTheMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1015"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-16T07:29:25.363Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 134,
+        "name": "Navigate to Video Games Menu and Validate Menu",
+        "description": "",
+        "id": "bestbuy-purchase;navigate-to-video-games-menu-and-validate-menu;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-G0UQGSFP\u0027, ip: \u0027192.168.199.43\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\\Users\\BHAANU~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cfaceeb228dae2bfffd3eb7a2c48880e\r\n\tat sun.reflect.GeneratedConstructorAccessor27.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)\r\n",
+              "duration": 5000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)\r\n\tat ✽.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:127)\r\n",
+              "duration": 23000000,
+              "status": "failed"
+            },
+            "line": 127,
+            "name": "As a user i should click on Menu Button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 128,
+            "name": "I should click on Video Games Sub-menu",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldClickOnVideoGamesSubMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 129,
+            "name": "I should get all the Video Games Sub Menu Pages and Validate the Sub Menus \"\u0026VGSUBMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026VGSUBMENUS\u0026\"",
+                  "offset": 75
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheVideoGamesSubMenuPagesAndValidateTheSubMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 130,
+            "name": "I should get all the Video Games Menu Pages and Validate the Menus \"\u0026VGMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026VGMENUS\u0026\"",
+                  "offset": 67
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheVideoGamesMenuPagesAndValidateTheMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1016"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-16T07:29:25.435Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 145,
+        "name": "Navigate to Cameras,Cam recorders and Drones and Validate Menu",
+        "description": "",
+        "id": "bestbuy-purchase;navigate-to-cameras-cam-recorders-and-drones-and-validate-menu;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-G0UQGSFP\u0027, ip: \u0027192.168.199.43\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\\Users\\BHAANU~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cfaceeb228dae2bfffd3eb7a2c48880e\r\n\tat sun.reflect.GeneratedConstructorAccessor27.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)\r\n",
+              "duration": 10000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)\r\n\tat ✽.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:138)\r\n",
+              "duration": 30000000,
+              "status": "failed"
+            },
+            "line": 138,
+            "name": "As a user i should click on Menu Button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 139,
+            "name": "I should click on Cameras,Cam recorders and Drones Sub-menu",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldClickOnCamerasCamRecordersAndDronesSubMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 140,
+            "name": "I should get all the Cameras,Cam recorders and Drones Sub Menu Pages and Validate the Sub Menus \"\u0026CCDSUBMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026CCDSUBMENUS\u0026\"",
+                  "offset": 96
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheCamerasCamRecordersAndDronesSubMenuPagesAndValidateTheSubMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 141,
+            "name": "I should get all the Cameras,Cam recorders and Drones Menu Pages and Validate the Menus \"\u0026CCDMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026CCDMENUS\u0026\"",
+                  "offset": 88
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheCamerasCamRecordersAndDronesMenuPagesAndValidateTheMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1017"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-16T07:29:25.535Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 156,
+        "name": "Navigate to Home,Furniture and Office and Validate Menu",
+        "description": "",
+        "id": "bestbuy-purchase;navigate-to-home-furniture-and-office-and-validate-menu;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-G0UQGSFP\u0027, ip: \u0027192.168.199.43\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\\Users\\BHAANU~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cfaceeb228dae2bfffd3eb7a2c48880e\r\n\tat sun.reflect.GeneratedConstructorAccessor27.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)\r\n",
+              "duration": 5000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)\r\n\tat ✽.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:149)\r\n",
+              "duration": 19000000,
+              "status": "failed"
+            },
+            "line": 149,
+            "name": "As a user i should click on Menu Button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 150,
+            "name": "I should click on Home,Furniture and Office Sub-menu",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldClickOnHomeFurnitureAndOfficeSubMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 151,
+            "name": "I should get all the Home,Furniture and Office Sub Menu Pages and Validate the Sub Menus \"\u0026HFOSUBMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026HFOSUBMENUS\u0026\"",
+                  "offset": 89
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheHomeFurnitureAndOfficeSubMenuPagesAndValidateTheSubMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 152,
+            "name": "I should get all the Home,Furniture and Office Menu Pages and Validate the Menus \"\u0026HFOMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026HFOMENUS\u0026\"",
+                  "offset": 81
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheHomeFurnitureAndOfficeMenuPagesAndValidateTheMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1018"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-16T07:29:25.599Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 167,
+        "name": "Navigate to Smart Home, Security \u0026 Wi-Fi and Validate Menu",
+        "description": "",
+        "id": "bestbuy-purchase;navigate-to-smart-home--security-\u0026-wi-fi-and-validate-menu;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-G0UQGSFP\u0027, ip: \u0027192.168.199.43\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\\Users\\BHAANU~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cfaceeb228dae2bfffd3eb7a2c48880e\r\n\tat sun.reflect.GeneratedConstructorAccessor27.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)\r\n",
+              "duration": 14000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)\r\n\tat ✽.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:160)\r\n",
+              "duration": 35000000,
+              "status": "failed"
+            },
+            "line": 160,
+            "name": "As a user i should click on Menu Button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 161,
+            "name": "I should click on Smart Home, Security \u0026 Wi-Fi Sub-menu",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldClickOnSmartHomeSecurityWiFiSubMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 162,
+            "name": "I should get all the Smart Home, Security \u0026 Wi-Fi Sub Menu Pages and Validate the Sub Menus \"\u0026SSWSUBMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026SSWSUBMENUS\u0026\"",
+                  "offset": 92
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheSmartHomeSecurityWiFiSubMenuPagesAndValidateTheSubMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 163,
+            "name": "I should get all the Smart Home, Security \u0026 Wi-Fi Menu Pages and Validate the Menus \"\u0026SSWMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026SSWMENUS\u0026\"",
+                  "offset": 84
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheSmartHomeSecurityWiFiMenuPagesAndValidateTheMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1019"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-16T07:29:25.690Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 178,
+        "name": "Navigate to Car Electronics \u0026 GPS and Validate Menu",
+        "description": "",
+        "id": "bestbuy-purchase;navigate-to-car-electronics-\u0026-gps-and-validate-menu;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-G0UQGSFP\u0027, ip: \u0027192.168.199.43\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\\Users\\BHAANU~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cfaceeb228dae2bfffd3eb7a2c48880e\r\n\tat sun.reflect.GeneratedConstructorAccessor27.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)\r\n",
+              "duration": 12000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)\r\n\tat ✽.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:171)\r\n",
+              "duration": 24000000,
+              "status": "failed"
+            },
+            "line": 171,
+            "name": "As a user i should click on Menu Button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 172,
+            "name": "I should click on Car Electronics \u0026 GPS Sub-menu",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldClickOnCarElectronicsGPSSubMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 173,
+            "name": "I should get all the Car Electronics \u0026 GPS Sub Menu Pages and Validate the Sub Menus \"\u0026CEGSUBMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026CEGSUBMENUS\u0026\"",
+                  "offset": 85
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheCarElectronicsGPSSubMenuPagesAndValidateTheSubMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 174,
+            "name": "I should get all the Car Electronics \u0026 GPS Menu Pages and Validate the Menus \"\u0026CEGMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026CEGMENUS\u0026\"",
+                  "offset": 77
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheCarElectronicsGPSMenuPagesAndValidateTheMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1020"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-16T07:29:25.780Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 189,
+        "name": "Navigate to Wearable Technology and Validate Menu",
+        "description": "",
+        "id": "bestbuy-purchase;navigate-to-wearable-technology-and-validate-menu;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-G0UQGSFP\u0027, ip: \u0027192.168.199.43\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\\Users\\BHAANU~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cfaceeb228dae2bfffd3eb7a2c48880e\r\n\tat sun.reflect.GeneratedConstructorAccessor27.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)\r\n",
+              "duration": 4000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)\r\n\tat ✽.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:182)\r\n",
+              "duration": 30000000,
+              "status": "failed"
+            },
+            "line": 182,
+            "name": "As a user i should click on Menu Button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 183,
+            "name": "I should click on Wearable Technology Sub-menu",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldClickOnWearableTechnologySubMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 184,
+            "name": "I should get all the Wearable Technology Sub Menu Pages and Validate the Sub Menus \"\u0026WTSUBMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026WTSUBMENUS\u0026\"",
+                  "offset": 83
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheWearableTechnologySubMenuPagesAndValidateTheSubMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 185,
+            "name": "I should get all the Wearable Technology Menu Pages and Validate the Menus \"\u0026WTMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026WTMENUS\u0026\"",
+                  "offset": 75
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheWearableTechnologyMenuPagesAndValidateTheMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1021"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-16T07:29:25.857Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 200,
+        "name": "Navigate to Health, Wellness \u0026 Fitness and Validate Menu",
+        "description": "",
+        "id": "bestbuy-purchase;navigate-to-health--wellness-\u0026-fitness-and-validate-menu;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-G0UQGSFP\u0027, ip: \u0027192.168.199.43\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\\Users\\BHAANU~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cfaceeb228dae2bfffd3eb7a2c48880e\r\n\tat sun.reflect.GeneratedConstructorAccessor27.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)\r\n",
+              "duration": 6000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)\r\n\tat ✽.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:193)\r\n",
+              "duration": 15000000,
+              "status": "failed"
+            },
+            "line": 193,
+            "name": "As a user i should click on Menu Button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 194,
+            "name": "I should click on Health, Wellness \u0026 Fitness Sub-menu",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldClickOnHealthWellnessFitnessSubMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 195,
+            "name": "I should get all the Health, Wellness \u0026 Fitness Sub Menu Pages and Validate the Sub Menus \"\u0026HWFSUBMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026HWFSUBMENUS\u0026\"",
+                  "offset": 90
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheHealthWellnessFitnessSubMenuPagesAndValidateTheSubMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 196,
+            "name": "I should get all the Health, Wellness \u0026 Fitness Menu Pages and Validate the Menus \"\u0026HWFMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026HWFMENUS\u0026\"",
+                  "offset": 82
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheHealthWellnessFitnessMenuPagesAndValidateTheMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1022"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-16T07:29:25.917Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 211,
+        "name": "Navigate to Outdoor Living and Validate Menu",
+        "description": "",
+        "id": "bestbuy-purchase;navigate-to-outdoor-living-and-validate-menu;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-G0UQGSFP\u0027, ip: \u0027192.168.199.43\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\\Users\\BHAANU~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cfaceeb228dae2bfffd3eb7a2c48880e\r\n\tat sun.reflect.GeneratedConstructorAccessor27.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)\r\n",
+              "duration": 8000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)\r\n\tat ✽.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:204)\r\n",
+              "duration": 22000000,
+              "status": "failed"
+            },
+            "line": 204,
+            "name": "As a user i should click on Menu Button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 205,
+            "name": "I should click on Outdoor Living Sub-menu",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldClickOnOutdoorLivingSubMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 206,
+            "name": "I should get all the Outdoor Living Sub Menu Pages and Validate the Sub Menus \"\u0026OLSUBMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026OLSUBMENUS\u0026\"",
+                  "offset": 78
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheOutdoorLivingSubMenuPagesAndValidateTheSubMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 207,
+            "name": "I should get all the Outdoor Living Menu Pages and Validate the Menus \"\u0026OLMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026OLMENUS\u0026\"",
+                  "offset": 70
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheOutdoorLivingMenuPagesAndValidateTheMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1023"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-16T07:29:25.978Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 222,
+        "name": "Navigate to Toys, Games \u0026 Collectibles and Validate Menu",
+        "description": "",
+        "id": "bestbuy-purchase;navigate-to-toys--games-\u0026-collectibles-and-validate-menu;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-G0UQGSFP\u0027, ip: \u0027192.168.199.43\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\\Users\\BHAANU~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cfaceeb228dae2bfffd3eb7a2c48880e\r\n\tat sun.reflect.GeneratedConstructorAccessor27.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)\r\n",
+              "duration": 4000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)\r\n\tat ✽.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:215)\r\n",
+              "duration": 18000000,
+              "status": "failed"
+            },
+            "line": 215,
+            "name": "As a user i should click on Menu Button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 216,
+            "name": "I should click on Toys, Games \u0026 Collectibles Sub-menu",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldClickOnToysGamesCollectiblesSubMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 217,
+            "name": "I should get all the Toys, Games \u0026 Collectibles Sub Menu Pages and Validate the Sub Menus \"\u0026TGCSUBMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026TGCSUBMENUS\u0026\"",
+                  "offset": 90
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheToysGamesCollectiblesSubMenuPagesAndValidateTheSubMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 218,
+            "name": "I should get all the Toys, Games \u0026 Collectibles Menu Pages and Validate the Menus \"\u0026TGCMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026TGCMENUS\u0026\"",
+                  "offset": 82
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheToysGamesCollectiblesMenuPagesAndValidateTheMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1024"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-16T07:29:26.030Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 233,
+        "name": "Navigate to Electric Transportation and Validate Menu",
+        "description": "",
+        "id": "bestbuy-purchase;navigate-to-electric-transportation-and-validate-menu;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-G0UQGSFP\u0027, ip: \u0027192.168.199.43\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\\Users\\BHAANU~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cfaceeb228dae2bfffd3eb7a2c48880e\r\n\tat sun.reflect.GeneratedConstructorAccessor27.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)\r\n",
+              "duration": 7000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)\r\n\tat ✽.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:226)\r\n",
+              "duration": 25000000,
+              "status": "failed"
+            },
+            "line": 226,
+            "name": "As a user i should click on Menu Button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 227,
+            "name": "I should click on Electric Transportation Sub-menu",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldClickOnElectricTransportationSubMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 228,
+            "name": "I should get all the Electric Transportation Sub Menu Pages and Validate the Sub Menus \"\u0026ETSUBMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026ETSUBMENUS\u0026\"",
+                  "offset": 87
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheElectricTransportationSubMenuPagesAndValidateTheSubMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 229,
+            "name": "I should get all the Electric Transportation Menu Pages and Validate the Menus \"\u0026ETMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026ETMENUS\u0026\"",
+                  "offset": 79
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheElectricTransportationMenuPagesAndValidateTheMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1025"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-16T07:29:26.107Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 244,
+        "name": "Navigate to New \u0026 Featured and Validate Menu",
+        "description": "",
+        "id": "bestbuy-purchase;navigate-to-new-\u0026-featured-and-validate-menu;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-G0UQGSFP\u0027, ip: \u0027192.168.199.43\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\\Users\\BHAANU~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cfaceeb228dae2bfffd3eb7a2c48880e\r\n\tat sun.reflect.GeneratedConstructorAccessor27.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)\r\n",
+              "duration": 3000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)\r\n\tat ✽.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:237)\r\n",
+              "duration": 20000000,
+              "status": "failed"
+            },
+            "line": 237,
+            "name": "As a user i should click on Menu Button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 238,
+            "name": "I should click on New \u0026 Featured Sub-menu",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldClickOnNewFeaturedSubMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "skipped"
+            },
+            "line": 239,
+            "name": "I should get all the New \u0026 Featured Sub Menu Pages and Validate the Sub Menus \"\u0026NFSUBMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026NFSUBMENUS\u0026\"",
+                  "offset": 78
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheNewFeaturedSubMenuPagesAndValidateTheSubMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 240,
+            "name": "I should get all the New \u0026 Featured Menu Pages and Validate the Menus \"\u0026NFMENUS\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026NFMENUS\u0026\"",
+                  "offset": 70
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheNewFeaturedMenuPagesAndValidateTheMenus(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1026"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-16T07:29:26.163Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 254,
+        "name": "Navigate to Footer Support Links",
+        "description": "",
+        "id": "bestbuy-purchase;navigate-to-footer-support-links;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-G0UQGSFP\u0027, ip: \u0027192.168.199.43\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\\Users\\BHAANU~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cfaceeb228dae2bfffd3eb7a2c48880e\r\n\tat sun.reflect.GeneratedConstructorAccessor27.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)\r\n",
+              "duration": 3000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnBestBuyButton(BestBuySteps.java:404)\r\n\tat ✽.As a user i should click on BestBuy Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:248)\r\n",
+              "duration": 35000000,
+              "status": "failed"
+            },
+            "line": 248,
+            "name": "As a user i should click on BestBuy Button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnBestBuyButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 249,
+            "name": "I should get all the Footer Support Pages and Navigate to each page",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheFooterSupportPagesAndNavigateToEachPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 250,
+            "name": "I should validate Footer Support URL \"\u0026FTSUPPORTPAGEURL\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026FTSUPPORTPAGEURL\u0026\"",
+                  "offset": 37
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldValidateFooterSupportURL(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1027"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-16T07:29:26.236Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 264,
+        "name": "Navigate to All Footer Links",
+        "description": "",
+        "id": "bestbuy-purchase;navigate-to-all-footer-links;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-G0UQGSFP\u0027, ip: \u0027192.168.199.43\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\\Users\\BHAANU~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cfaceeb228dae2bfffd3eb7a2c48880e\r\n\tat sun.reflect.GeneratedConstructorAccessor27.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)\r\n",
+              "duration": 4000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnBestBuyButton(BestBuySteps.java:404)\r\n\tat ✽.As a user i should click on BestBuy Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:258)\r\n",
+              "duration": 41000000,
+              "status": "failed"
+            },
+            "line": 258,
+            "name": "As a user i should click on BestBuy Button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnBestBuyButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 259,
+            "name": "I should get all the Footer Pages and Navigate to each page",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheFooterPagesAndNavigateToEachPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 260,
+            "name": "I should validate Footer Page URL \"\u0026FTAPPAGEURL\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026FTAPPAGEURL\u0026\"",
+                  "offset": 34
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldValidateFooterPageURL(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1028"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-16T07:29:26.313Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 274,
+        "name": "Navigate to Footer T\u0026C Links",
+        "description": "",
+        "id": "bestbuy-purchase;navigate-to-footer-t\u0026c-links;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-G0UQGSFP\u0027, ip: \u0027192.168.199.43\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\\Users\\BHAANU~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cfaceeb228dae2bfffd3eb7a2c48880e\r\n\tat sun.reflect.GeneratedConstructorAccessor27.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)\r\n",
+              "duration": 3000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnBestBuyButton(BestBuySteps.java:404)\r\n\tat ✽.As a user i should click on BestBuy Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:268)\r\n",
+              "duration": 42000000,
+              "status": "failed"
+            },
+            "line": 268,
+            "name": "As a user i should click on BestBuy Button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnBestBuyButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 269,
+            "name": "I should get all the Footer T\u0026C Pages and Navigate to each page",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldGetAllTheFooterTCPagesAndNavigateToEachPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 270,
+            "name": "I should validate Footer T\u0026C Page URL \"\u0026FTTCPAGEURL\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026FTTCPAGEURL\u0026\"",
+                  "offset": 38
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldValidateFooterTCPageURL(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1029"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-16T07:29:26.394Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 291,
+        "name": "Search a Product from search bar and add it to Cart",
+        "description": "",
+        "id": "bestbuy-purchase;search-a-product-from-search-bar-and-add-it-to-cart;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-G0UQGSFP\u0027, ip: \u0027192.168.199.43\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\\Users\\BHAANU~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cfaceeb228dae2bfffd3eb7a2c48880e\r\n\tat sun.reflect.GeneratedConstructorAccessor27.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)\r\n",
+              "duration": 5000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnBestBuyButton(BestBuySteps.java:404)\r\n\tat ✽.As a user i should click on BestBuy Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:279)\r\n",
+              "duration": 36000000,
+              "status": "failed"
+            },
+            "line": 279,
+            "name": "As a user i should click on BestBuy Button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnBestBuyButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 280,
+            "name": "I should enter the disney toy \"\u0026DISNEYTOY\u0026\" in Search Box and Click Search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026DISNEYTOY\u0026\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldEnterTheDisneyToyInSearchBoxAndClickSearch(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 281,
+            "name": "I should click and navigate to disney toy product page and view them \"\u0026PRNAMEMODELSKU\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026PRNAMEMODELSKU\u0026\"",
+                  "offset": 69
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldClickAndNavigateToDisneyToyProductPageAndViewThem(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 282,
+            "name": "I should check the product  \"\u0026DISNEYTOY\u0026\" added to the cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026DISNEYTOY\u0026\"",
+                  "offset": 28
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldCheckTheProductAddedToTheCart(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 283,
+            "name": "I should click on the Checkout button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldClickOnTheCheckoutButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 284,
+            "name": "I should click on the Continue as Guest button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldClickOnTheContinueAsGuestButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 285,
+            "name": "I should enter email address \"\u0026GUESTEMAIL\u0026\" and \"\u0026GUESTPHONENUMBER\u0026\" phonenumber",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026GUESTEMAIL\u0026\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"\u0026GUESTPHONENUMBER\u0026\"",
+                  "offset": 48
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldEnterEmailAddressAndPhonenumber(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 286,
+            "name": "I should enter payment information \"\u0026CARDNUMBER\u0026\" and delivery address \"\u0026DELIVERYADDRESS\u0026\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026CARDNUMBER\u0026\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"\u0026DELIVERYADDRESS\u0026\"",
+                  "offset": 71
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldEnterPaymentInformationAndDeliveryAddressDetails(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 287,
+            "name": "I should check order \"\u0026ORDERSUCCESSMESSAGE\u0026\" is placed successfully",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026ORDERSUCCESSMESSAGE\u0026\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldCheckOrderIsPlacedSuccessfully(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1030"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-16T07:29:26.472Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 308,
+        "name": "Navigate to Shop by Department and add a Product to Cart from Toys, Games \u0026 Collectibles and Brand Barbie",
+        "description": "",
+        "id": "bestbuy-purchase;navigate-to-shop-by-department-and-add-a-product-to-cart-from-toys--games-\u0026-collectibles-and-brand-barbie;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-G0UQGSFP\u0027, ip: \u0027192.168.199.43\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\\Users\\BHAANU~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cfaceeb228dae2bfffd3eb7a2c48880e\r\n\tat sun.reflect.GeneratedConstructorAccessor27.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)\r\n",
+              "duration": 3000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnBestBuyButton(BestBuySteps.java:404)\r\n\tat ✽.As a user i should click on BestBuy Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:295)\r\n",
+              "duration": 35000000,
+              "status": "failed"
+            },
+            "line": 295,
+            "name": "As a user i should click on BestBuy Button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnBestBuyButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 296,
+            "name": "I click on Deals menu and click on Toys,Games and collectibles",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iClickOnDealsMenuAndClickOnToysGamesAndCollectibles()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 297,
+            "name": "I click on Shop by Brand and Click on Barbie",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iClickOnShopByBrandAndClickOnBarbie()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 298,
+            "name": "I should click and navigate to barbie toy product page and view them \"\u0026BARBIENAMEMODELSKU\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026BARBIENAMEMODELSKU\u0026\"",
+                  "offset": 69
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldClickAndNavigateToBarbieToyProductPageAndViewThem(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 299,
+            "name": "I should check the barbie product \"\u0026BARBIETOY\u0026\" added to the cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026BARBIETOY\u0026\"",
+                  "offset": 34
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldCheckTheBarbieProductAddedToTheCart(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 300,
+            "name": "I should click on the Checkout button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldClickOnTheCheckoutButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 301,
+            "name": "I should click on the Continue as Guest button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldClickOnTheContinueAsGuestButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 302,
+            "name": "I should enter email address \"\u0026GUESTEMAIL\u0026\" and \"\u0026GUESTPHONENUMBER\u0026\" phonenumber",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026GUESTEMAIL\u0026\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"\u0026GUESTPHONENUMBER\u0026\"",
+                  "offset": 48
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldEnterEmailAddressAndPhonenumber(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 303,
+            "name": "I should enter payment information \"\u0026CARDNUMBER\u0026\" and delivery address \"\u0026DELIVERYADDRESS\u0026\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026CARDNUMBER\u0026\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"\u0026DELIVERYADDRESS\u0026\"",
+                  "offset": 71
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldEnterPaymentInformationAndDeliveryAddressDetails(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 304,
+            "name": "I should check order \"\u0026ORDERSUCCESSMESSAGE\u0026\" is placed successfully",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026ORDERSUCCESSMESSAGE\u0026\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldCheckOrderIsPlacedSuccessfully(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1031"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-16T07:29:26.540Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 325,
+        "name": "Navigate to Select By Brand and add a Product to Cart from Toys, Games \u0026 Collectibles and Brand Barbie",
+        "description": "",
+        "id": "bestbuy-purchase;navigate-to-select-by-brand-and-add-a-product-to-cart-from-toys--games-\u0026-collectibles-and-brand-barbie;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-G0UQGSFP\u0027, ip: \u0027192.168.199.43\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\\Users\\BHAANU~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cfaceeb228dae2bfffd3eb7a2c48880e\r\n\tat sun.reflect.GeneratedConstructorAccessor27.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)\r\n",
+              "duration": 3000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnBestBuyButton(BestBuySteps.java:404)\r\n\tat ✽.As a user i should click on BestBuy Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:312)\r\n",
+              "duration": 32000000,
+              "status": "failed"
+            },
+            "line": 312,
+            "name": "As a user i should click on BestBuy Button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnBestBuyButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 313,
+            "name": "I click on Deals menu and click on Brands",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iClickOnDealsMenuAndClickOnBrands()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 314,
+            "name": "I click on Lenovo and Click on Laptops",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iClickOnLenovoAndClickOnLaptops()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 315,
+            "name": "I should click and navigate to laptop product page and view them \"\u0026LAPTOPNAMEMODELSKU\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026LAPTOPNAMEMODELSKU\u0026\"",
+                  "offset": 65
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldClickAndNavigateToLaptopProductPageAndViewThem(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 316,
+            "name": "I should check the laptop product \"\u0026LAPTOPDEVICE\u0026\" added to the cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026LAPTOPDEVICE\u0026\"",
+                  "offset": 34
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldCheckTheLaptopProductAddedToTheCart(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 317,
+            "name": "I should click on the Checkout button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldClickOnTheCheckoutButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 318,
+            "name": "I should click on the Continue as Guest button",
+            "match": {
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldClickOnTheContinueAsGuestButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 319,
+            "name": "I should enter email address \"\u0026GUESTEMAIL\u0026\" and \"\u0026GUESTPHONENUMBER\u0026\" phonenumber",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026GUESTEMAIL\u0026\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"\u0026GUESTPHONENUMBER\u0026\"",
+                  "offset": 48
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldEnterEmailAddressAndPhonenumber(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 320,
+            "name": "I should enter payment information \"\u0026CARDNUMBER\u0026\" and delivery address \"\u0026DELIVERYADDRESS\u0026\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026CARDNUMBER\u0026\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"\u0026DELIVERYADDRESS\u0026\"",
+                  "offset": 71
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldEnterPaymentInformationAndDeliveryAddressDetails(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 321,
+            "name": "I should check order \"\u0026ORDERSUCCESSMESSAGE\u0026\" is placed successfully",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u0026ORDERSUCCESSMESSAGE\u0026\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldCheckOrderIsPlacedSuccessfully(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEB"
+          },
+          {
+            "name": "@TEST1"
+          },
+          {
+            "name": "@TC_ID_1032"
           }
         ]
       }

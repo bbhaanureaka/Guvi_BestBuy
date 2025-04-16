@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/27/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Apr 16 09:40:11 IST 2025</td>
+<td>Started on:</td><td>Wed Apr 16 12:58:55 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>7 seconds (7406 ms)</td>
+<tr><td>Total time:</td><td>32 seconds (32121 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,21 +75,450 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Launch BestBuy Website, Select a Country and Validate URL is valid", "Optional[BestBuy Purchase]"</td>
+<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to Home,Furniture and Office and Validate Menu", "Optional[BestBuy Purchase]"</td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.i_should_select_country(BestBuySteps.java:32)
-	at ?.I should &quot;&amp;COUNTRY NAME&amp;&quot; select Country(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:6)
-... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace33238366", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace33238366'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:149)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1178090104", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1178090104'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertTrue(Assert.java:45)
 	at org.testng.Assert.assertTrue(Assert.java:55)
-	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.i_should_select_country(BestBuySteps.java:32)
-	at ?.I should &quot;&amp;COUNTRY NAME&amp;&quot; select Country(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:6)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:149)
 </pre></div></td>
-<td>6</td>
-<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@1a3869f4</td></tr>
+<td>0</td>
+<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@50d0686</td></tr>
+<tr>
+<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to New & Featured and Validate Menu", "Optional[BestBuy Purchase]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:237)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1038002783", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1038002783'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:237)
+</pre></div></td>
+<td>0</td>
+<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@50d0686</td></tr>
+<tr>
+<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to Electric Transportation and Validate Menu", "Optional[BestBuy Purchase]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:226)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1172943149", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1172943149'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:226)
+</pre></div></td>
+<td>0</td>
+<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@50d0686</td></tr>
+<tr>
+<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to Cell Phones Menu and Validate Menu", "Optional[BestBuy Purchase]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:105)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2070295086", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2070295086'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:105)
+</pre></div></td>
+<td>0</td>
+<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@50d0686</td></tr>
+<tr>
+<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to Deals Menu , Deals and Deals by Category Sub-Menu and its Pages and Validate URL", "Optional[BestBuy Purchase]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:39)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1534888240", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1534888240'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:39)
+</pre></div></td>
+<td>0</td>
+<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@50d0686</td></tr>
+<tr>
+<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create Account with No Test Data and Invalid Data", "Optional[BestBuy Purchase]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldNavigateToCreateAccountPage(BestBuySteps.java:42)
+	at ?.As a user i should navigate to Create Account page(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:15)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace747378368", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace747378368'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldNavigateToCreateAccountPage(BestBuySteps.java:42)
+	at ?.As a user i should navigate to Create Account page(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:15)
+</pre></div></td>
+<td>0</td>
+<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@50d0686</td></tr>
+<tr>
+<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search a Product from search bar and add it to Cart", "Optional[BestBuy Purchase]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnBestBuyButton(BestBuySteps.java:404)
+	at ?.As a user i should click on BestBuy Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:279)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace823405912", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace823405912'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnBestBuyButton(BestBuySteps.java:404)
+	at ?.As a user i should click on BestBuy Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:279)
+</pre></div></td>
+<td>0</td>
+<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@50d0686</td></tr>
+<tr>
+<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to Footer T&C Links", "Optional[BestBuy Purchase]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnBestBuyButton(BestBuySteps.java:404)
+	at ?.As a user i should click on BestBuy Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:268)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1566285515", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1566285515'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnBestBuyButton(BestBuySteps.java:404)
+	at ?.As a user i should click on BestBuy Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:268)
+</pre></div></td>
+<td>0</td>
+<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@50d0686</td></tr>
+<tr>
+<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to Health, Wellness & Fitness and Validate Menu", "Optional[BestBuy Purchase]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:193)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1492801385", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1492801385'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:193)
+</pre></div></td>
+<td>0</td>
+<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@50d0686</td></tr>
+<tr>
+<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to Shop by Department and add a Product to Cart from Toys, Games & Collectibles and Brand Barbie", "Optional[BestBuy Purchase]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnBestBuyButton(BestBuySteps.java:404)
+	at ?.As a user i should click on BestBuy Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:295)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1787913218", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1787913218'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnBestBuyButton(BestBuySteps.java:404)
+	at ?.As a user i should click on BestBuy Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:295)
+</pre></div></td>
+<td>0</td>
+<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@50d0686</td></tr>
+<tr>
+<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to Smart Home, Security & Wi-Fi and Validate Menu", "Optional[BestBuy Purchase]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:160)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace312560500", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace312560500'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:160)
+</pre></div></td>
+<td>0</td>
+<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@50d0686</td></tr>
+<tr>
+<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to Video Games Menu and Validate Menu", "Optional[BestBuy Purchase]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:127)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1148735023", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1148735023'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:127)
+</pre></div></td>
+<td>0</td>
+<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@50d0686</td></tr>
+<tr>
+<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to Deals Menu , Brands Sub-Menu and its Pages and Validate URL", "Optional[BestBuy Purchase]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:61)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1100004490", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1100004490'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:61)
+</pre></div></td>
+<td>0</td>
+<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@50d0686</td></tr>
+<tr>
+<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to Car Electronics & GPS and Validate Menu", "Optional[BestBuy Purchase]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:171)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1862552664", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1862552664'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:171)
+</pre></div></td>
+<td>0</td>
+<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@50d0686</td></tr>
+<tr>
+<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to Cameras,Cam recorders and Drones and Validate Menu", "Optional[BestBuy Purchase]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:138)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1496999718", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1496999718'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:138)
+</pre></div></td>
+<td>0</td>
+<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@50d0686</td></tr>
+<tr>
+<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to Deals Menu , Deals by Category Sub-Menu and its Pages and Validate URL", "Optional[BestBuy Purchase]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:50)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1199894489", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1199894489'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:50)
+</pre></div></td>
+<td>0</td>
+<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@50d0686</td></tr>
+<tr>
+<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to Computers & Tablets Menu and Validate Menu", "Optional[BestBuy Purchase]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:94)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1708711928", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1708711928'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:94)
+</pre></div></td>
+<td>0</td>
+<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@50d0686</td></tr>
+<tr>
+<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with Existing User", "Optional[BestBuy Purchase]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldNavigateToSignInButton(BestBuySteps.java:84)
+	at ?.As a user i should navigate to Sign In button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:29)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1943408246", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1943408246'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldNavigateToSignInButton(BestBuySteps.java:84)
+	at ?.As a user i should navigate to Sign In button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:29)
+</pre></div></td>
+<td>0</td>
+<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@50d0686</td></tr>
+<tr>
+<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to Toys, Games & Collectibles and Validate Menu", "Optional[BestBuy Purchase]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:215)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace490766432", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace490766432'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:215)
+</pre></div></td>
+<td>0</td>
+<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@50d0686</td></tr>
+<tr>
+<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to Footer Support Links", "Optional[BestBuy Purchase]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnBestBuyButton(BestBuySteps.java:404)
+	at ?.As a user i should click on BestBuy Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:248)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace213095762", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace213095762'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnBestBuyButton(BestBuySteps.java:404)
+	at ?.As a user i should click on BestBuy Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:248)
+</pre></div></td>
+<td>0</td>
+<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@50d0686</td></tr>
+<tr>
+<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to All Footer Links", "Optional[BestBuy Purchase]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnBestBuyButton(BestBuySteps.java:404)
+	at ?.As a user i should click on BestBuy Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:258)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1228589267", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1228589267'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnBestBuyButton(BestBuySteps.java:404)
+	at ?.As a user i should click on BestBuy Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:258)
+</pre></div></td>
+<td>0</td>
+<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@50d0686</td></tr>
+<tr>
+<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to Audio and Head Phones Menu and Validate Menu", "Optional[BestBuy Purchase]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:116)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2050907347", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2050907347'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:116)
+</pre></div></td>
+<td>0</td>
+<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@50d0686</td></tr>
+<tr>
+<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to Outdoor Living and Validate Menu", "Optional[BestBuy Purchase]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:204)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace687141632", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace687141632'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:204)
+</pre></div></td>
+<td>0</td>
+<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@50d0686</td></tr>
+<tr>
+<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to Appliances Menu and Validate Menu", "Optional[BestBuy Purchase]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:72)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2028042905", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2028042905'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:72)
+</pre></div></td>
+<td>0</td>
+<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@50d0686</td></tr>
+<tr>
+<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to TV & Home Theatre Menu and Validate Menu", "Optional[BestBuy Purchase]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:83)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace884599555", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace884599555'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:83)
+</pre></div></td>
+<td>0</td>
+<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@50d0686</td></tr>
+<tr>
+<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to Wearable Technology and Validate Menu", "Optional[BestBuy Purchase]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:182)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace526874139", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace526874139'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnMenuButton(BestBuySteps.java:104)
+	at ?.As a user i should click on Menu Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:182)
+</pre></div></td>
+<td>0</td>
+<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@50d0686</td></tr>
+<tr>
+<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to Select By Brand and add a Product to Cart from Toys, Games & Collectibles and Brand Barbie", "Optional[BestBuy Purchase]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnBestBuyButton(BestBuySteps.java:404)
+	at ?.As a user i should click on BestBuy Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:312)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace748229733", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace748229733'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.asAUserIShouldClickOnBestBuyButton(BestBuySteps.java:404)
+	at ?.As a user i should click on BestBuy Button(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:312)
+</pre></div></td>
+<td>0</td>
+<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@50d0686</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy.runScenario()'><b>runScenario</b><br>Test class: Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Launch BestBuy Website, Select a Country and Validate URL is valid", "Optional[BestBuy Purchase]"</td>
+<td></td>
+<td>26</td>
+<td>Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@50d0686</td></tr>
 </table><p>
 </body>
 </html>
