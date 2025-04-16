@@ -1471,8 +1471,14 @@ public class BestBuyPage extends BasePage {
             /*blResult = verifyElement(elmntVGMenu);
             click(elmntVGMenu);*/
 
+            /*waitForSeconds(2);
             jsClickScroll(elmntVGMenu);
-            blResult = true;
+            blResult = true;*/
+
+            waitForSeconds(2);
+            blResult = verifyElement(elmntVGMenu);
+            click(elmntVGMenu);
+            waitForSeconds(2);
 
         } catch (Exception e) {
             System.out.println("clickOnVideoGamesMenuSubMenu catch " + blResult);
@@ -1907,8 +1913,13 @@ public class BestBuyPage extends BasePage {
             /*blResult = verifyElement(elmntHWFMenu);
             click(elmntHWFMenu);*/
 
-            jsClickScroll(elmntHWFMenu);
-            blResult = true;
+            //jsClickScroll(elmntHWFMenu);
+            //blResult = true;
+
+            waitForSeconds(2);
+            blResult = verifyElement(elmntHWFMenu);
+            click(elmntHWFMenu);
+            waitForSeconds(2);
 
         } catch (Exception e) {
             System.out.println("clickOnHealthWellnessFitnessSubMenu catch " + blResult);
@@ -1950,8 +1961,8 @@ public class BestBuyPage extends BasePage {
             waitForSeconds(2);
             blResult = verifyElement(elmntMenu);
             click(elmntMenu);
-            blResult = verifyElement(elmntOLMenu);
-            click(elmntOLMenu);
+            blResult = verifyElement(elmntHWFMenu);
+            click(elmntHWFMenu);
             waitForSeconds(2);
 
 
@@ -2126,7 +2137,9 @@ public class BestBuyPage extends BasePage {
             /*blResult = verifyElement(elmntETMenu);
             click(elmntETMenu);*/
 
-            jsClickScroll(elmntETMenu);
+            waitForSeconds(2);
+            blResult = verifyElement(elmntETMenu);
+            click(elmntETMenu);
             blResult = true;
 
         } catch (Exception e) {
@@ -2198,6 +2211,8 @@ public class BestBuyPage extends BasePage {
             /*blResult = verifyElement(elmntNFMenu);
             click(elmntNFMenu);*/
 
+            waitForSeconds(5);
+            blResult = verifyElement(elmntNFMenu);
             jsClickScroll(elmntNFMenu);
             blResult = true;
 

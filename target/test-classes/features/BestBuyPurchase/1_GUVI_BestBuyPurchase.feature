@@ -10,7 +10,7 @@ Feature: BestBuy Purchase
       | Country Name   | Current URL   |
       | &COUNTRY NAME& | &CURRENT URL& |
 
-  @WEB @TEST1 @TC_ID_1003 @TC_ID_1004 @TC_ID_1005 @TC_ID_1006
+  @WEB @TEST12 @TC_ID_1003 @TC_ID_1004 @TC_ID_1005 @TC_ID_1006
   Scenario Template: Create Account with No Test Data and Invalid Data
     Given As a user i should navigate to Create Account page
     And I should not enter any data in input fields and Click on Create an Account button

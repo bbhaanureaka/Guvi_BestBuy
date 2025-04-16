@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy" time="68.545" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy" time="7.819" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="idea.version" value="2022.2.3"/>
     <property name="app" value="Happy_Path_Patient_Web_and_MR"/>
@@ -70,6 +70,175 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="runScenario" classname="Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy" time="25.576"/>
-  <testcase name="runScenario" classname="Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy" time="40.318"/>
+  <testcase name="runScenario" classname="Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy" time="6.387">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+</failure>
+    <system-out><![CDATA[
+@WEB @TEST1 @TC_ID_1001 @TC_ID_1002
+Scenario Template: Launch BestBuy Website, Select a Country and Validate URL is valid # src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:11
+Inside SharedDriver static Block
+Inside loadData
+{URL=https://www.bestbuy.com/, COUNTRY NAME=United States, CURRENT URL=https://www.bestbuy.com/?intl=nosplash, VALIDATION MESSAGES=Please enter your first name.;Please enter your last name.;Please enter a valid email address.;Please enter a strong password.;Please reenter your password.;Please enter a valid mobile phone number., INVALID DATA=firstname12;lastname12;testemailgmailcom;Manage@12;Manage@123;12345654, INVALID VALIDATION MESSAGES=Too many numeric characters.;Too many numeric characters.;Please enter a valid email address.;Please enter a strong password.;Passwords do not match.;Please enter a valid mobile phone number., VALID DATA=buvaneshwari1;balachandran1;buvaneshwari1@bestbuy.com;Best Buy@123456;Best Buy@123456;7019976600, USERNAME=sasikala@bestbuy.com, PASSWORD=Best Buy@123456, DEALSPAGEURL=top-deals;deal-of-the-day;member-deals;electronics/outlet-refurbished-clearance;outlet-refurbished-clearance/clearance-electronics;apple-shopping-event;all-tv-home-theater-on-sale;all-computers-tablets-on-sale;all-video-games-on-sale;all-audio-on-sale;all-cell-phones-on-sale;all-smart-home-security-wi-fi-on-sale;all-toys-games-collectibles-on-sale;all-cameras-camcorders-drones-on-sale;all-wearable-technology-on-sale;all-appliances-on-sale;all-home-furniture-office-on-sale;all-outdoor-living-on-sale;all-car-electronics-on-sale;all-electric-transportation-on-sale;all-health-wellness-fitness-on-sale;sale-page, SUPPORTANDSERVICESPAGEURL=support;services;remotesupport;appointmentfinder;trade-in;repairtracker;best-buy-brands;computer-tablet-services;tv-home-theater-services;appliance-services;cell-phone-services;apple-service-repair;smart-home-services;car-electronics-professional-installation;fitness-equipment-services;helm-smart-energy;electronics/services;best-buy-membership-total;geek-squad-protection;applecare;best-buy-protection;recycling;partstore.com;subscriptions, BRANDSPAGEURL=apple;samsung-store;lg;playstation;sony-store;hp;microsoft;nintendo;lenovo;whirlpool;beats-headphones;dell;electronics/brands;best-buy-brands/best-buy-essentials;insignia;pacific-sales;rocketfish;yardbird, BESTBUYBRANDPAGEURL=best-buy-brands/best-buy-essentials;insignia;pacific-sales;rocketfish;yardbird, APPLIANCESSUBMENUS=Major Kitchen Appliances;Small Kitchen Appliances;Luxury Kitchen Appliances;Washers & Dryers;Vacuums & Floor Care;Heating, Cooling & Air Quality;Appliance Packages;Shop by Brand;Deals & Outlet;Services & Support, APPLIANCESMENUS=Small Space Appliances;Appliance Parts & Accessories;All Appliances;Samsung Virtual Appliance Showroom;Pacific Sales Kitchen & Home;Appliance Energy Rebate Finder, TVTHSUBMENUS=TVs by Size;TVs by Type;TVs by Brand;Sound Bars & Home Audio;Home Theater Accessories;Premium TV & Home Theater;Deals & Outlet;Services & Support, TVHTMENUS=Projectors & Screens;Blu-ray & DVD Players;Streaming Devices;All TV & Home Theater;Best Buy for Business;Samsung Virtual Showroom;Premium Audio & Video;97-Inch or Larger TVs, CTSUBMENUS=Laptops & Desktops;Tablets;Monitors;PC Gaming & Virtual Reality;Computer Components;Hard Drives, SSD & Storage;Computer Accessories;Software;Printers, Ink & Toner;Wi-Fi & Networking;Deals & Outlet;Services & Support;In-Store Experience;, CTMENUS=All Computers & Tablets;Best Buy for Business;Windows Copilot+ PCs;New iPad Pro M4;Google Pixel Tablet, CPSUBMENUS=iPhone;Samsung Galaxy;Google;Cell Phone Accessories;Deals & Outlet;Services & Support;, CPMENUS=Unlocked Phones;Verizon;AT&T;Prepaid Phones;Lively;All Cell Phones;Learn About Unlocked Cell Phones;Learn About Magnetic Accessories;Chargers & Cables, AHPSUBMENUS=Home Audio;Headphones;Bluetooth Speakers;Premium Audio & Headphones;Car Audio;Vinyl Records;Deals & Outlet, AHPMENUS=Musical Instruments;All Audio & Headphones;Headphones On Sale;Kids' Headphones;The Vinyl Shop, VGSUBMENUS=Nintendo;Xbox;PlayStation;PC Gaming;Virtual Reality;Gaming Accessories;Digital Gaming;Handheld Gaming;Deals & Outlet, VGMENUS=Retro Gaming & Arcade;All Video Games;Nintendo Switch 2;ROG Ally Gaming Handheld;Video Game Announcements, CCDSUBMENUS=Cameras & Lenses;Action Cameras & Camcorders;Content Creator Gear;Camera Accessories;Drones;Binoculars, Telescopes & Optics;Shop by Brand;Deals & Outlet;, CCDMENUS=All Cameras, Camcorders & Drones;Shop with a Camera Expert, HFOSUBMENUS=Home;Furniture;Kitchen & Dining;Office;Craft Machines;Luggage & Travel;Tools & Garage;Storage & Organization;Deals & Outlet, HFOMENUS=All Home, Furniture & Office, SSWSUBMENUS=Wi-Fi & Networking;Smart Devices;Deals & Outlet;Services & Support, SSWMENUS=Security Cameras & Surveillance;Smart Doorbells;Smart Door Locks;Home Security Systems;Smart Speakers & Displays;Smart Lighting;Smart Thermostats;Smart Plugs & Outlets;All Smart Home, Security & Wi-Fi;Smart Home Tips & Tricks;Home Wi-Fi Networking Tips, CEGSUBMENUS=Car Audio;Car Security & Convenience;Deals & Outlet;Services & Support, CEGMENUS=Back-Up & Dash Cameras;Electric Car Chargers;Car Video & DVD Players;GPS Navigation;Marine & Powersports;Installation Parts & Accessories;All Car Electronics & GPS, WTSUBMENUS=Apple Watch;Smartwatches;Headphones;Virtual Reality;Shop by Brand;Wearable Technology Accessories;Deals & Outlet, WTMENUS=Samsung Galaxy Smartwatches;Fitness Trackers;Watches;Smart Rings;All Wearable Technology;Apple Watch Series 10;Oura Ring;Smart Glasses, HWFSUBMENUS=Home Health Care;Personal Care & Beauty;Shaving & Hair Removal;Exercise & Fitness;Workout Recovery;Sleep Solutions;Smartwatches;Contrast Therapy: Hot & Cold Therapy;Deals & Outlet;Services & Support, HWFMENUS=Baby Care;All Health, Wellness & Fitness;Hearing Assessment & Solutions;Assistive Technology, OLSUBMENUS=Grills & Accessories;Outdoor Kitchens;Outdoor Heating;Outdoor Power Equipment;Outdoor Home Theater;Patio Furniture;Deals & Outlet;, OLMENUS=Outdoor Lighting;All Outdoor Living;Yardbird Outdoor Furniture;Fire Pits;Smart Grills, TGCSUBMENUS=Toys by Type;Toys by Age;Games, Puzzles & Cards;Collectibles;Shop by Character;Shop by Brand;Outdoor Hobbies & Play;Deals & Outlet, TGCMENUS=All Toys, Games & Collectibles;Collectibles & Toy Guide;LEGO;Pokémon, ETSUBMENUS=Electric Bikes;Electric Scooters;Kids' Scooters & Ride-Ons;Safety Gear & Accessories;Deals;Services & Support, ETMENUS=Electric Powersport Vehicles;Hoverboards;Electric Car Chargers;All Electric Transportation;Electric Bike Buying Guide;Electric Scooter Buying Guide;EV Charger Buying Guide, NFSUBMENUS=Featured Gift Ideas;New Releases;Top-Rated Tech;Discover & Learn Blog;Spring Shop, NFMENUS=Nintendo Switch 2;Bring on Spring;Yes, Best Buy Sells That;Latest from Apple;Latest from Tesla;Best Buy Drops, FTSUPPORTPAGEURL=support;identity/signin;shipping-delivery-store-pickup;return-exchange-policy, FTAPPAGEURL=identity/signin;shipping-delivery-store-pickup;return-exchange-policy;price-match-guarantee;product-recalls;trade-in;gift-cards;financing-rewards;identity/signin;progressive-leasing;financing-rewards;support;shopping;services;appointmentfinder;electronics/services;recycling;contact-us;best-buy-membership;identity/signin;loyalty/catalog;marketplace;bestbuyads.com;identity/signin;loyalty/catalog;marketplace;www.bestbuyads.com;best-buy-affiliate-program;bestbuyhealth.com;bestbuy-education;bestbuy-business;partner-plus;corporate.bestbuy.com;jobs.bestbuy.com;corporate.bestbuy.com;corporate.bestbuy.com, FTTCPAGEURL=accessibility;terms-and-conditions;privacy-policy;interest-based-ads;state-privacy-rights;health-data-privacy;ca_donotsell;optout;donottarget;ca-transparency-act;, DISNEYTOY=Disney - Lorcana Archazia's Island Illumineer's Trove, PRNAMEMODELSKU=Disney - Lorcana Archazia's Island Illumineer's Trove;11098509;6612226, BARBIENAMEMODELSKU=Barbie - Doll and Newborn Pups Playset;HCK75;6495431, BARBIETOY=Barbie - Doll and Newborn Pups Playset, LAPTOPNAMEMODELSKU=Lenovo - IdeaPad Duet 5 Chromebook 2-in1 Laptop - 13.3" FHD Touchscreen - Snapdragon 7cG2 - 8GB - 128GB eMMC - with Keyboard - Abyss Blue;82QS001HUS;6477625, LAPTOPDEVICE=Lenovo - IdeaPad Duet 5 Chromebook 2-in1 Laptop - 13.3" FHD Touchscreen - Snapdragon 7cG2 - 8GB - 128GB eMMC - with Keyboard - Abyss Blue, GUESTEMAIL=bhaanureaka14@gmail.com, GUESTPHONENUMBER=432 432 4344, CARDNUMBER=5127 8809 9999 9990;0330;121, DELIVERYADDRESS=bhaanu;reaka;1201 North Muldoon Street;Anchorage;AK;99504;Bhaanu@123456, ORDERSUCCESSMESSAGE=Unfortunately, we were unable to process your credit card. Please try again or use a different card to continue with your order. For questions regarding your credit card, please contact your bank., =}
+Inside SharedDriver static Block - After Load data
+Inside SharedDriver static Block - strExecutionTypebrowser
+Inside SharedDriver static Block - strBrowserNamechrome
+
+ >> Execution String: -FOGYVSTN
+Inside DriverUtil - Inside getDriver - strBrowser chrome
+getDriver ExecutionType browser
+getLocalDriver ExecutionView browser
+getLocalDriver osName XP
+Inside getLocalDriver - case chrome config/drivers/chromedriver.exe
+Inside getLocalDriver - case chrome else chromecapabilities
+Inside DriverUtil ChromeOptions chromeCapabilities
+<----------------------WeDriver is launched---------------------->
+Inside Visit
+===============>WindowsCount::1
+Inside WindowsCount 1 - ELSE Block
+=======================>URL:https://www.bestbuy.com/
+=======================>Launched URL
+  Given As a user i should launch BestBuy Website                                     # Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.as_a_user_i_should_launch_best_buy_website()
+  And I should "&COUNTRY NAME&" select Country                                        # Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.i_should_select_country(java.lang.String)
+      java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.i_should_select_country(BestBuySteps.java:32)
+	at âœ½.I should "&COUNTRY NAME&" select Country(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:6)
+
+  Then I should validate URL "&CURRENT URL&" is valid                                 # Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.iShouldValidateURLIsValid(java.lang.String)
+      org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-G0UQGSFP', ip: '192.168.199.43', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\BHAANU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52604}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d48c9ce38295bedc019989e9200adf10
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at Happy_Path_Patient_Web_and_MR.DemoPageContainer.afterScenario(DemoPageContainer.java:74)
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 135.0.7049.84 (6c019e56001911b3fd467e03bf68c435924d62f4-refs/branch-heads/7049@{#1778}) on port 54236
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 54236.
+Apr 16, 2025 9:40:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+org.openqa.selenium.WebDriverException: org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=135.0.7049.85)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-G0UQGSFP', ip: '192.168.199.43', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\BHAANU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52604}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d48c9ce38295bedc019989e9200adf10
+*** Element info: {Using=xpath, value=//div[@class='content']/div[not(contains(@class, 'hidden'))]/div[@class='country-selection']/a[@class='us-link']}
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:192)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.windows.WindowsElement$$EnhancerByCGLIB$$7365f0b4.isDisplayed(<generated>)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at cap.common.BasePage.waitForElement(BasePage.java:103)
+	at Happy_Path_Patient_Web_and_MR.pages.BestBuyPage.selectCountry(BestBuyPage.java:419)
+	at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.i_should_select_country(BestBuySteps.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:117)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:114)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=135.0.7049.85)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-G0UQGSFP', ip: '192.168.199.43', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\BHAANU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52604}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d48c9ce38295bedc019989e9200adf10
+*** Element info: {Using=xpath, value=//div[@class='content']/div[not(contains(@class, 'hidden'))]/div[@class='country-selection']/a[@class='us-link']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	... 66 more
+]]></system-err>
+  </testcase>
 </testsuite>

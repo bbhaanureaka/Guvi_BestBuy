@@ -24,7 +24,7 @@ Feature: BestBuy Purchase
       | Validation Messages   | Invalid Data   | Invalid Validation Messages   | Valid Data   |
       | &VALIDATION MESSAGES& | &INVALID DATA& | &INVALID VALIDATION MESSAGES& | &VALID DATA& |
 
-  @WEB @TEST12 @TC_ID_1007
+  @WEB @TEST1 @TC_ID_1007
   Scenario Template: Login with Existing User
     Given As a user i should navigate to Sign In button
     When I enter UserName "<UserName>" and click Continue
@@ -34,7 +34,7 @@ Feature: BestBuy Purchase
       | UserName   | Password   |
       | &USERNAME& | &PASSWORD& |
 
-  @WEB @TEST12 @TC_ID_1008
+  @WEB @TEST1 @TC_ID_1008
   Scenario Outline: Navigate to Deals Menu , Deals and Deals by Category Sub-Menu and its Pages and Validate URL
     Given As a user i should click on Menu Button
     When I should click on Deals Sub-menu
@@ -45,7 +45,7 @@ Feature: BestBuy Purchase
       | DealsPageUrl   |
       | &DEALSPAGEURL& |
 
-  @WEB @TEST12 @TC_ID_1009
+  @WEB @TEST1 @TC_ID_1009
   Scenario Outline: Navigate to Deals Menu , Deals by Category Sub-Menu and its Pages and Validate URL
     Given As a user i should click on Menu Button
     When I should click on Support and Services Sub-menu
@@ -56,7 +56,7 @@ Feature: BestBuy Purchase
       | SupportAndServicesPageUrl   |
       | &SUPPORTANDSERVICESPAGEURL& |
 
-  @WEB @TEST12 @TC_ID_1010
+  @WEB @TEST1 @TC_ID_1010
   Scenario Outline: Navigate to Deals Menu , Brands Sub-Menu and its Pages and Validate URL
     Given As a user i should click on Menu Button
     When I should click on Brands Sub-menu
@@ -67,7 +67,7 @@ Feature: BestBuy Purchase
       | BrandsPageUrl   |
       | &BRANDSPAGEURL& |
 
-  @WEB @TEST12 @TC_ID_1011
+  @WEB @TEST1 @TC_ID_1011
   Scenario Outline: Navigate to Appliances Menu and Validate Menu
     Given As a user i should click on Menu Button
     When I should click on Appliances Sub-menu
@@ -78,7 +78,7 @@ Feature: BestBuy Purchase
       | AppliancesSubMenus   | AppliancesMenus   |
       | &APPLIANCESSUBMENUS& | &APPLIANCESMENUS& |
 
-  @WEB @TEST12 @TC_ID_1012
+  @WEB @TEST1 @TC_ID_1012
   Scenario Outline: Navigate to TV & Home Theatre Menu and Validate Menu
     Given As a user i should click on Menu Button
     When I should click on TV & Home Theatre Sub-menu
@@ -89,7 +89,7 @@ Feature: BestBuy Purchase
       | TVHTSubMenus   | TVHTMenus   |
       | &TVTHSUBMENUS& | &TVHTMENUS& |
 
-  @WEB @TEST12 @TC_ID_1013
+  @WEB @TEST1 @TC_ID_1013
   Scenario Outline: Navigate to Computers & Tablets Menu and Validate Menu
     Given As a user i should click on Menu Button
     When I should click on Computers & Tablets Sub-menu
@@ -100,7 +100,7 @@ Feature: BestBuy Purchase
       | CTSubMenus   | CTMenus   |
       | &CTSUBMENUS& | &CTMENUS& |
 
-  @WEB @TEST12 @TC_ID_1014
+  @WEB @TEST1 @TC_ID_1014
   Scenario Outline: Navigate to Cell Phones Menu and Validate Menu
     Given As a user i should click on Menu Button
     When I should click on Cell Phones Sub-menu
@@ -111,7 +111,7 @@ Feature: BestBuy Purchase
       | CPSubMenus   | CPMenus   |
       | &CPSUBMENUS& | &CPMENUS& |
 
-  @WEB @TEST12 @TC_ID_1015
+  @WEB @TEST1 @TC_ID_1015
   Scenario Outline: Navigate to Audio and Head Phones Menu and Validate Menu
     Given As a user i should click on Menu Button
     When I should click on Audio and Head Phones Sub-menu
@@ -122,7 +122,7 @@ Feature: BestBuy Purchase
       | AHPSubMenus   | AHPMenus   |
       | &AHPSUBMENUS& | &AHPMENUS& |
 
-  @WEB @TEST12 @TC_ID_1016
+  @WEB @TEST1 @TC_ID_1016
   Scenario Outline: Navigate to Video Games Menu and Validate Menu
     Given As a user i should click on Menu Button
     When I should click on Video Games Sub-menu
@@ -133,7 +133,7 @@ Feature: BestBuy Purchase
       | VGSubMenus   | VGMenus   |
       | &VGSUBMENUS& | &VGMENUS& |
 
-  @WEB @TEST12 @TC_ID_1017
+  @WEB @TEST1 @TC_ID_1017
   Scenario Outline: Navigate to Cameras,Cam recorders and Drones and Validate Menu
     Given As a user i should click on Menu Button
     When I should click on Cameras,Cam recorders and Drones Sub-menu
@@ -144,7 +144,7 @@ Feature: BestBuy Purchase
       | CCDSubMenus   | CCDMenus   |
       | &CCDSUBMENUS& | &CCDMENUS& |
 
-  @WEB @TEST12 @TC_ID_1018
+  @WEB @TEST1 @TC_ID_1018
   Scenario Outline: Navigate to Home,Furniture and Office and Validate Menu
     Given As a user i should click on Menu Button
     When I should click on Home,Furniture and Office Sub-menu
@@ -155,7 +155,7 @@ Feature: BestBuy Purchase
       | HFOSubMenus   | HFOMenus   |
       | &HFOSUBMENUS& | &HFOMENUS& |
 
-  @WEB @TEST12 @TC_ID_1019
+  @WEB @TEST1 @TC_ID_1019
   Scenario Outline: Navigate to Smart Home, Security & Wi-Fi and Validate Menu
     Given As a user i should click on Menu Button
     When I should click on Smart Home, Security & Wi-Fi Sub-menu
@@ -166,7 +166,7 @@ Feature: BestBuy Purchase
       | SSWSubMenus   | SSWMenus   |
       | &SSWSUBMENUS& | &SSWMENUS& |
 
-  @WEB @TEST12 @TC_ID_1020
+  @WEB @TEST1 @TC_ID_1020
   Scenario Outline: Navigate to Car Electronics & GPS and Validate Menu
     Given As a user i should click on Menu Button
     When I should click on Car Electronics & GPS Sub-menu
@@ -177,7 +177,7 @@ Feature: BestBuy Purchase
       | CEGSubMenus   | CEGMenus   |
       | &CEGSUBMENUS& | &CEGMENUS& |
 
-  @WEB @TEST12 @TC_ID_1021
+  @WEB @TEST1 @TC_ID_1021
   Scenario Outline: Navigate to Wearable Technology and Validate Menu
     Given As a user i should click on Menu Button
     When I should click on Wearable Technology Sub-menu
@@ -188,7 +188,7 @@ Feature: BestBuy Purchase
       | WTSubMenus   | WTMenus   |
       | &WTSUBMENUS& | &WTMENUS& |
 
-  @WEB @TEST12 @TC_ID_1022
+  @WEB @TEST1 @TC_ID_1022
   Scenario Outline: Navigate to Health, Wellness & Fitness and Validate Menu
     Given As a user i should click on Menu Button
     When I should click on Health, Wellness & Fitness Sub-menu
@@ -199,7 +199,7 @@ Feature: BestBuy Purchase
       | HWFSubMenus   | HWFMenus   |
       | &HWFSUBMENUS& | &HWFMENUS& |
 
-  @WEB @TEST12 @TC_ID_1023
+  @WEB @TEST1 @TC_ID_1023
   Scenario Outline: Navigate to Outdoor Living and Validate Menu
     Given As a user i should click on Menu Button
     When I should click on Outdoor Living Sub-menu
@@ -210,7 +210,7 @@ Feature: BestBuy Purchase
       | OLSubMenus   | OLMenus   |
       | &OLSUBMENUS& | &OLMENUS& |
 
-  @WEB @TEST12 @TC_ID_1024
+  @WEB @TEST1 @TC_ID_1024
   Scenario Outline: Navigate to Toys, Games & Collectibles and Validate Menu
     Given As a user i should click on Menu Button
     When I should click on Toys, Games & Collectibles Sub-menu
@@ -221,7 +221,7 @@ Feature: BestBuy Purchase
       | TGCSubMenus   | TGCMenus   |
       | &TGCSUBMENUS& | &TGCMENUS& |
 
-  @WEB @TEST12 @TC_ID_1025
+  @WEB @TEST1 @TC_ID_1025
   Scenario Outline: Navigate to Electric Transportation and Validate Menu
     Given As a user i should click on Menu Button
     When I should click on Electric Transportation Sub-menu
@@ -232,7 +232,7 @@ Feature: BestBuy Purchase
       | ETSubMenus   | ETMenus   |
       | &ETSUBMENUS& | &ETMENUS& |
 
-  @WEB @TEST12 @TC_ID_1026
+  @WEB @TEST1 @TC_ID_1026
   Scenario Outline: Navigate to New & Featured and Validate Menu
     Given As a user i should click on Menu Button
     When I should click on New & Featured Sub-menu
@@ -243,7 +243,7 @@ Feature: BestBuy Purchase
       | NFSubMenus   | NFMenus   |
       | &NFSUBMENUS& | &NFMENUS& |
 
-  @WEB @TEST12 @TC_ID_1027
+  @WEB @TEST1 @TC_ID_1027
   Scenario Outline: Navigate to Footer Support Links
     Given As a user i should click on BestBuy Button
     When I should get all the Footer Support Pages and Navigate to each page
@@ -253,7 +253,7 @@ Feature: BestBuy Purchase
       | FTSupportPageUrl   |
       | &FTSUPPORTPAGEURL& |
 
-  @WEB @TEST12 @TC_ID_1028
+  @WEB @TEST1 @TC_ID_1028
   Scenario Outline: Navigate to All Footer Links
     Given As a user i should click on BestBuy Button
     When I should get all the Footer Pages and Navigate to each page
@@ -263,7 +263,7 @@ Feature: BestBuy Purchase
       | FTAPPageUrl   |
       | &FTAPPAGEURL& |
 
-  @WEB @TEST12 @TC_ID_1029
+  @WEB @TEST1 @TC_ID_1029
   Scenario Outline: Navigate to Footer T&C Links
     Given As a user i should click on BestBuy Button
     When I should get all the Footer T&C Pages and Navigate to each page
@@ -274,7 +274,7 @@ Feature: BestBuy Purchase
       | &FTTCPAGEURL& |
 
 
-  @WEB @TEST12 @TC_ID_1030
+  @WEB @TEST1 @TC_ID_1030
   Scenario Outline: Search a Product from search bar and add it to Cart
     Given As a user i should click on BestBuy Button
     When I should enter the disney toy "<DisneyToy>" in Search Box and Click Search
@@ -290,7 +290,7 @@ Feature: BestBuy Purchase
       | DisneyToy   | PrNameModelSKU   | GuestEmail   | GuestPhoneNumber   | CardNumber   | DeliveryAddress   | OrderSuccessMessage   |
       | &DISNEYTOY& | &PRNAMEMODELSKU& | &GUESTEMAIL& | &GUESTPHONENUMBER& | &CARDNUMBER& | &DELIVERYADDRESS& | &ORDERSUCCESSMESSAGE& |
 
-  @WEB @TEST12 @TC_ID_1031
+  @WEB @TEST1 @TC_ID_1031
   Scenario Outline: Navigate to Shop by Department and add a Product to Cart from Toys, Games & Collectibles and Brand Barbie
     Given As a user i should click on BestBuy Button
     When I click on Deals menu and click on Toys,Games and collectibles
@@ -307,7 +307,7 @@ Feature: BestBuy Purchase
       | BarbieNameModelSKU   | BarbieToy   | GuestEmail   | GuestPhoneNumber   | CardNumber   | DeliveryAddress   | OrderSuccessMessage   |
       | &BARBIENAMEMODELSKU& | &BARBIETOY& | &GUESTEMAIL& | &GUESTPHONENUMBER& | &CARDNUMBER& | &DELIVERYADDRESS& | &ORDERSUCCESSMESSAGE& |
 
-  @WEB @TEST12 @TC_ID_1032
+  @WEB @TEST1 @TC_ID_1032
   Scenario Outline: Navigate to Select By Brand and add a Product to Cart from Toys, Games & Collectibles and Brand Barbie
     Given As a user i should click on BestBuy Button
     When I click on Deals menu and click on Brands

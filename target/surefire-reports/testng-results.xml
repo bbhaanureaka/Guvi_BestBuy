@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="67960" started-at="2025-04-13T16:48:26 IST" finished-at="2025-04-13T16:49:34 IST">
+  <suite name="Surefire suite" duration-ms="7406" started-at="2025-04-16T09:40:11 IST" finished-at="2025-04-16T09:40:18 IST">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@1a3869f4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Surefire test" duration-ms="67960" started-at="2025-04-13T16:48:26 IST" finished-at="2025-04-13T16:49:34 IST">
+    <test name="Surefire test" duration-ms="7406" started-at="2025-04-16T09:40:11 IST" finished-at="2025-04-16T09:40:18 IST">
       <class name="Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@1a3869f4]" name="setUpClass" is-config="true" duration-ms="733" started-at="2025-04-13T16:48:26 IST" finished-at="2025-04-13T16:48:27 IST">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@1a3869f4]" name="setUpClass" is-config="true" duration-ms="712" started-at="2025-04-16T09:40:11 IST" finished-at="2025-04-16T09:40:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@1a3869f4]" name="runScenario" duration-ms="25550" started-at="2025-04-13T16:48:27 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-13T16:48:53 IST">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@1a3869f4]" name="runScenario" duration-ms="6372" started-at="2025-04-16T09:40:12 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-16T09:40:18 IST">
           <params>
             <param index="0">
               <value>
@@ -27,30 +27,29 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at Happy_Path_Patient_Web_and_MR.stepDefinitions.BestBuySteps.i_should_select_country(BestBuySteps.java:32)
+at ✽.I should "&COUNTRY NAME&" select Country(file:///E:/ShareWebCopy_Guvi_BestBuy/src/test/resources/features/BestBuyPurchase/1_GUVI_BestBuyPurchase.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@1a3869f4]" name="runScenario" duration-ms="40302" started-at="2025-04-13T16:48:53 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-13T16:49:33 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Create Account with No Test Data and Invalid Data"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[BestBuy Purchase]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@1a3869f4]" name="teardown" is-config="true" duration-ms="1" started-at="2025-04-13T16:49:33 IST" finished-at="2025-04-13T16:49:33 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@1a3869f4]" name="teardown" is-config="true" duration-ms="1" started-at="2025-04-16T09:40:18 IST" finished-at="2025-04-16T09:40:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@1a3869f4]" name="tearDownClass" is-config="true" duration-ms="1340" started-at="2025-04-13T16:49:33 IST" finished-at="2025-04-13T16:49:34 IST">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Happy_Path_Patient_Web_and_MR.cukes.DemoWebBestBuy@1a3869f4]" name="tearDownClass" is-config="true" duration-ms="281" started-at="2025-04-16T09:40:18 IST" finished-at="2025-04-16T09:40:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
