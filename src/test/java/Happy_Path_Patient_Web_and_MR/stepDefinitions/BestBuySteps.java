@@ -519,4 +519,14 @@ public class BestBuySteps {
     public void iShouldCheckOrderIsPlacedSuccessfully(String strOrderSuccessMessage) {
         Assert.assertTrue(demoPageContainer.bestBuyPage.checkOrderIsPlacedSuccessfully(TestDataUtil.getValue(strOrderSuccessMessage)));
     }
+
+    @When("I should enter the product name {string} in Search Box and Click Search")
+    public void iShouldEnterTheProductNameInSearchBoxAndClickSearch(String strWrongProductName) {
+        Assert.assertTrue(demoPageContainer.bestBuyPage.enterTheProductNameInSearchBoxAndClickSearch(TestDataUtil.getValue(strWrongProductName)));
+    }
+
+    @Then("I should check the product not available in store")
+    public void iShouldCheckTheProductNotAvailableInStore() {
+        Assert.assertTrue(demoPageContainer.bestBuyPage.checkTheProductNotAvailableInStore());
+    }
 }

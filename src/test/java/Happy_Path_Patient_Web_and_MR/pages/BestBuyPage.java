@@ -218,7 +218,7 @@ public class BestBuyPage extends BasePage {
     @FindBy(how = How.XPATH, using = "//button[@class='header-search-button ']/span")
     protected WebElement elmntSearchIcon;
 
-    @FindBy(how = How.XPATH, using = "//div[@class='shop-zero-search-results']//h3[contains(text(),'Hmmm, we didn't find anything for')]")
+    @FindBy(how = How.XPATH, using = "//div[@class='no-results-found-block']/h3[contains(text(),'Hmmm, we didn’t find anything')]")
     protected WebElement elmntNoSearchResultsText;
 
     /*@FindBy(how = How.XPATH, using = "//div[@class='title-wrapper title']/span")
@@ -407,6 +407,7 @@ public class BestBuyPage extends BasePage {
             }
 
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -427,10 +428,12 @@ public class BestBuyPage extends BasePage {
                 waitForElement(elmntFranceTxt);
                 blResult = verifyElement(elmntFranceTxt);
             }
+            takeScreenshot(driver);
 
         } catch (Exception e) {
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -467,6 +470,7 @@ public class BestBuyPage extends BasePage {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -484,6 +488,7 @@ public class BestBuyPage extends BasePage {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -499,6 +504,7 @@ public class BestBuyPage extends BasePage {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -516,10 +522,12 @@ public class BestBuyPage extends BasePage {
                 }
             }
             System.out.println("checkNoDataValidationMessages return boolean value is " + blResult);
+            takeScreenshot(driver);
 
         } catch (Exception e) {
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -543,9 +551,12 @@ public class BestBuyPage extends BasePage {
             blResult = verifyElement(btnCreateAccount);
             System.out.println("EnterInvalidDataCreateAccountPage return boolean value is " + blResult);
 
+            takeScreenshot(driver);
+
         } catch (Exception e) {
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -563,10 +574,12 @@ public class BestBuyPage extends BasePage {
                 }
             }
             System.out.println("checkInvalidDataValidationMessages return boolean value is " + blResult);
+            takeScreenshot(driver);
 
         } catch (Exception e) {
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -590,10 +603,12 @@ public class BestBuyPage extends BasePage {
             click(btnCreateAccount);
             blResult = verifyElement(btnCreateAccount);
             System.out.println("EnterInvalidDataCreateAccountPage return boolean value is " + blResult);
+            takeScreenshot(driver);
 
         } catch (Exception e) {
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -614,6 +629,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("Inside checkAccountIsCreatedSuccessfully catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -643,7 +659,9 @@ public class BestBuyPage extends BasePage {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
+
     }
 
     public boolean EnterUserNameAndClickContinue(String strUserName) {
@@ -657,6 +675,7 @@ public class BestBuyPage extends BasePage {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -678,6 +697,7 @@ public class BestBuyPage extends BasePage {
 
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -694,6 +714,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("Inside checkAccountIsCreatedSuccessfully catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -709,6 +730,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("ClickOnMenuButton catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -723,6 +745,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("clickOnDealsSubMenu catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -790,6 +813,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllTheDealsPagesAndNavigateToEachPage catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -804,6 +828,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("validateSubMenuURL catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -817,6 +842,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("clickOnSupportAndServicesSubMenu catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -900,6 +926,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllTheSupportAndServicesPagesAndNavigateToEachPage catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -916,6 +943,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("validateSupportAndServicesSubMenuUR catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -930,6 +958,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("clickOnBrandsSubMenu catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -1003,6 +1032,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllTheBrandsPagesAndNavigateToEachPage catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -1019,6 +1049,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("validateBrandsSubMenuURL catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -1117,6 +1148,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("clickOnAppliancesSubMenu catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -1140,6 +1172,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllTheAppliancesSubMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -1173,6 +1206,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllTheAppliancesMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -1188,6 +1222,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("clickOnTVHomeTheatreSubMenu catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -1211,6 +1246,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllTVHomeTheatreSubMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -1244,6 +1280,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllTheTVHTMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -1258,6 +1295,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("clickOnComputersTabletsSubMenu catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -1281,6 +1319,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllComputersTabletsSubMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -1314,6 +1353,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllComputersTabletsMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -1332,6 +1372,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("clickOnCellPhonesSubMenu catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -1355,6 +1396,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllCellPhonesSubMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -1388,6 +1430,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllCellPhonesMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -1405,6 +1448,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("clickOnAudioAndHeadPhonesSubMenu catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -1428,6 +1472,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllAudioAndHeadPhonesSubMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -1460,6 +1505,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllAudioAndHeadPhonesMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -1484,6 +1530,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("clickOnVideoGamesMenuSubMenu catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -1506,6 +1553,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllVideoGamesSubMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -1538,6 +1586,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllVideoGamesMenuMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -1554,6 +1603,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("clickOnCamerasCamRecordersSubMenu catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -1577,6 +1627,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllCCDSubMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -1610,6 +1661,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllCCDMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -1626,6 +1678,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("clickOnHomeFurnitureAndOfficeSubMenu catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -1649,6 +1702,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllHFOSubMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -1682,6 +1736,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllHFOMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -1700,6 +1755,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("clickOnSmartHomeSecurityWiFiSubMenu catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -1723,6 +1779,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllSSWSubMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -1756,6 +1813,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllSSWMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -1774,6 +1832,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("clickOnCarElectronicsGPSSubMenu catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -1796,6 +1855,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllCEGSubMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -1829,6 +1889,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllCEGMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -1847,6 +1908,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("clickOnWearableTechnologySubMenu catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -1870,6 +1932,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllWTSubMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -1902,6 +1965,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllWTMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -1925,6 +1989,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("clickOnHealthWellnessFitnessSubMenu catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -1948,6 +2013,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllHWFSubMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -1981,6 +2047,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllHWFMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -1999,6 +2066,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("clickOnOutdoorLivingSubMenu catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -2022,6 +2090,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllOLSubMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -2054,6 +2123,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllOTMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -2071,6 +2141,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("clickOnToysGamesCollectiblesSubMenu catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -2094,6 +2165,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllTGCSubMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -2126,6 +2198,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllTGCMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -2146,6 +2219,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("clickOnElectricTransportationSubMenu catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -2168,6 +2242,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllETSubMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -2200,6 +2275,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllETMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -2220,6 +2296,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("clickOnNewFeaturedSubMenu catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -2243,6 +2320,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllNFSubMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -2276,6 +2354,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("getAllNFMenuPages catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
 
     }
@@ -2325,6 +2404,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("clickOnBestBuyButton catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -2372,6 +2452,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("GetAllFooterSupportPagesAndNavigateToEachPage catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -2386,6 +2467,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("validateSubMenuURL catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -2435,6 +2517,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("GetAllFooterPagesAndNavigateToEachPage catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -2449,6 +2532,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("validateFooterPageURL catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -2497,6 +2581,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("GetAllFooterTCPagesAndNavigateToEachPage catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -2512,6 +2597,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("validateFooterTCPageURL catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -2533,6 +2619,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("enterTheDisneyToyInSearchBoxAndClickSearch catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -2844,6 +2931,7 @@ public class BestBuyPage extends BasePage {
             e.printStackTrace();
         }
         System.out.println("clickAndNavigateToDisneyToyProductPageAndViewThem bool value is:  " + blResult);
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -2879,6 +2967,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("checkTheProductAddedToTheCart catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -2898,6 +2987,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("ClickOnMenuButton catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -2918,6 +3008,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("clickOnShopByBrandAndClickOnBarbie catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -3253,6 +3344,7 @@ public class BestBuyPage extends BasePage {
             e.printStackTrace();
         }
         System.out.println("clickAndNavigateToBarbieToyProductPageAndViewThem bool value is:  " + blResult);
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -3295,6 +3387,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("checkTheBarbieProductAddedToTheCart catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -3315,6 +3408,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("clickOnDealsMenuAndClickOnBrands catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -3337,6 +3431,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("clickOnLenovoAndClickOnLaptops catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -3696,6 +3791,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("checkTheLaptopProductAddedToTheCart catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         System.out.println("checkTheLaptopProductAddedToTheCart bool value is:  " + blResult);
         return blResult;
     }
@@ -3739,6 +3835,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("checkTheLaptopProductInTheCart catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -3756,6 +3853,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("clickOnTheCheckoutButton catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -3774,6 +3872,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("clickOnTheContinueAsGuestButton catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -3798,6 +3897,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("clickOnTheContinueAsGuestButton catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -3872,6 +3972,7 @@ public class BestBuyPage extends BasePage {
             System.out.println("enterPaymentInformationAndDeliveryAddressDetails catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
         return blResult;
     }
 
@@ -3892,6 +3993,51 @@ public class BestBuyPage extends BasePage {
             System.out.println("checkOrderIsPlacedSuccessfully catch " + blResult);
             e.printStackTrace();
         }
+        takeScreenshot(driver);
+        return blResult;
+    }
+
+
+
+    public boolean enterTheProductNameInSearchBoxAndClickSearch(String strWrongProductName) {
+        boolean blResult = false;
+        try {
+            //Enter data in Search Field
+            blResult = verifyElement(elmntSearchField);
+            jsEnterValue(elmntSearchField, strWrongProductName);
+
+            //jsEnterValue(elmntSearchField,"lenovo laptop");
+
+            //Click Search Icon
+            blResult = click(elmntSearchIcon);
+            waitForSeconds(2);
+
+        } catch (Exception e) {
+            System.out.println("enterTheProductNameInSearchBoxAndClickSearch catch " + blResult);
+            e.printStackTrace();
+        }
+        takeScreenshot(driver);
+        return blResult;
+    }
+
+
+
+    public boolean checkTheProductNotAvailableInStore() {
+        boolean blResult = false;
+        try {
+
+            blResult = verifyElement(elmntNoSearchResultsText);
+            System.out.println("Item Not Found Bool Value is "+blResult);
+            /*if(blResult == false) {
+                System.out.println(" Inside If blItemNotFound - Item is found");
+                blResult = true;
+            }*/
+
+        } catch (Exception e) {
+            System.out.println("checkTheProductNotAvailableInStore catch " + blResult);
+            e.printStackTrace();
+        }
+        takeScreenshot(driver);
         return blResult;
     }
 
