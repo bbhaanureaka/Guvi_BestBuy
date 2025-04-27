@@ -776,8 +776,13 @@ public class BestBuyPage extends BasePage {
                         text = "TV & Home Theater";
                         System.out.println("Inside loop 7 Print Deals Sub-menu Text " + text);
                     }
+                    else if(i==8){
+                        System.out.println("Inside loop 8");
+                        text = "all-computers-tablets-on-sale";
+                        System.out.println("Inside loop 8 Print Deals Sub-menu Text " + text);
 
-                }
+                    }
+                waitForSeconds(5);
                 //Click Deals Sub-Menu
                 WebElement elmntSubMenuURL = waitForElement(By.xpath(elmntDealsSubMenuURL.replace("<<REPLACEMENT>>", text)));
                 blResult = verifyElement(elmntSubMenuURL);
@@ -884,6 +889,8 @@ public class BestBuyPage extends BasePage {
                     }*/
 
                 }
+
+                waitForSeconds(5);
                 //Click Deals Sub-Menu
                 WebElement elmntSubMenuURL = waitForElement(By.xpath(elmntDealsSubMenuURL.replace("<<REPLACEMENT>>", text)));
                 blResult = verifyElement(elmntSubMenuURL);
@@ -997,6 +1004,8 @@ public class BestBuyPage extends BasePage {
                     }
 
                 }
+
+                waitForSeconds(5);
                 //Click Deals Sub-Menu
                 WebElement elmntSubMenuURL = waitForElement(By.xpath(elmntDealsSubMenuURL.replace("<<REPLACEMENT>>", text)));
                 blResult = verifyElement(elmntSubMenuURL);

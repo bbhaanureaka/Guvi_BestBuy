@@ -10,7 +10,7 @@ Feature: BestBuy Purchase
       | Country Name   | Current URL   |
       | &COUNTRY NAME& | &CURRENT URL& |
 
-  @WEB @TEST1 @TC_ID_1003 @TC_ID_1004 @TC_ID_1005 @TC_ID_1006
+  @WEB @TEST12 @TC_ID_1003 @TC_ID_1004 @TC_ID_1005 @TC_ID_1006
   Scenario Template: Create Account with No Test Data and Invalid Data
     Given As a user i should navigate to Create Account page
     And I should not enter any data in input fields and Click on Create an Account button
@@ -46,7 +46,7 @@ Feature: BestBuy Purchase
       | &DEALSPAGEURL& |
 
   @WEB @TEST12 @TC_ID_1009
-  Scenario Outline: Navigate to Deals Menu , Deals by Category Sub-Menu and its Pages and Validate URL
+  Scenario Outline: Navigate to Deals Menu , Support and Services Sub-Menu and its Pages and Validate URL
     Given As a user i should click on Menu Button
     When I should click on Support and Services Sub-menu
     And I should get all the Support and Services Pages and Navigate to each page
