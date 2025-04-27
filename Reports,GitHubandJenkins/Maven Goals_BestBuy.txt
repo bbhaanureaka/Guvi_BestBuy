@@ -1,0 +1,8 @@
+Chrome Browser:
+
+clean test -Dapp=Happy_Path_Patient_Web_and_MR -Dexecution_type=browser -Drunner=DemoWebBestBuy -Dbrowser_name=chrome -Denv=QA "-DargLine=-Dextent.reporter.spark.out=reports/Extent-Report/Web-QAResults.html -Dsysteminfo.AppName=BestBuy-Website"
+
+Firefox Browser :
+
+clean test -Dapp=Happy_Path_Patient_Web_and_MR -Dexecution_type=browser -Drunner=DemoWebBestBuy -Dbrowser_name=firefox -Denv=QA "-DargLine=-Dextent.reporter.spark.out=reports/Extent-Report/Web-QAResults.html -Dsysteminfo.AppName=BestBuy-Website"
+

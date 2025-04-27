@@ -776,13 +776,15 @@ public class BestBuyPage extends BasePage {
                         text = "TV & Home Theater";
                         System.out.println("Inside loop 7 Print Deals Sub-menu Text " + text);
                     }
-                    else if(i==8){
+                    if (i == 8) {
                         System.out.println("Inside loop 8");
-                        text = "all-computers-tablets-on-sale";
+                        text = "Computers & Tablets";
                         System.out.println("Inside loop 8 Print Deals Sub-menu Text " + text);
-
                     }
-                waitForSeconds(5);
+
+
+                }
+                //waitForSeconds(5);
                 //Click Deals Sub-Menu
                 WebElement elmntSubMenuURL = waitForElement(By.xpath(elmntDealsSubMenuURL.replace("<<REPLACEMENT>>", text)));
                 blResult = verifyElement(elmntSubMenuURL);
@@ -873,11 +875,12 @@ public class BestBuyPage extends BasePage {
                     //click(elmntDealsMenu);
                     jsClickScroll(elmntSupportServicesMenu);
 
-                    /*if(i==8) {
+                    if(i==8) {
                         System.out.println("Inside loop 8");
                         text = "Computer & Tablet Services";
                         System.out.println("Inside loop 8 Print Deals Sub-menu Text " + text);
-                    }else if(i==18){
+                    }
+                    /*else if(i==18){
                         System.out.println("Inside loop 18");
                         text = "My Best Buy Total Membership";
                         System.out.println("Inside loop 18 Print Deals Sub-menu Text " + text);
@@ -997,7 +1000,13 @@ public class BestBuyPage extends BasePage {
                         text = "Lenovo";
                         System.out.println("Inside loop 9 Print Deals Sub-menu Text " + text);
 
-                    } else if (i == 14) {
+                    }
+                    if (i == 10) {
+                        System.out.println("Inside loop 10");
+                        text = "Whirlpool";
+                        System.out.println("Inside loop 10 Print Deals Sub-menu Text " + text);
+
+                    }else if (i == 14) {
                         /*System.out.println("Inside loop 14");
                         text = "Best Buy essentials";
                         System.out.println("Inside loop 14 Print Deals Sub-menu Text " + text);*/
@@ -1196,8 +1205,9 @@ public class BestBuyPage extends BasePage {
             blResult = verifyElement(elmntMenu);
             click(elmntMenu);
             blResult = verifyElement(elmntAppliancesMenu);
-            click(elmntAppliancesMenu);
-            waitForSeconds(2);
+            //click(elmntAppliancesMenu);
+            jsClickScroll(elmntAppliancesMenu);
+            waitForSeconds(5);
 
 
             // Extract text using Java 8 Streams
@@ -1270,7 +1280,8 @@ public class BestBuyPage extends BasePage {
             blResult = verifyElement(elmntMenu);
             click(elmntMenu);
             blResult = verifyElement(elmntTVHTMenu);
-            click(elmntTVHTMenu);
+            //click(elmntTVHTMenu);
+            jsClickScroll(elmntTVHTMenu);
             waitForSeconds(2);
 
 
@@ -1313,6 +1324,7 @@ public class BestBuyPage extends BasePage {
         boolean blResult = false;
 
         try {
+            waitForSeconds(5);
             // Extract text using Java 8 Streams
             List<String> texts = elmntAppliancesMenuWithBtnList.stream()
                     .map(WebElement::getText) // Extract text from each element
@@ -1320,6 +1332,7 @@ public class BestBuyPage extends BasePage {
 
             //Print all the Deals Current URLS in the list
             texts.forEach(System.out::println);
+            System.out.println(strCTSubmenuPages);
 
             blResult = compareListStrings(strCTSubmenuPages, texts);
             System.out.println("getAllComputersTabletsSubMenuPages bool value is " + blResult);
@@ -1343,8 +1356,9 @@ public class BestBuyPage extends BasePage {
             blResult = verifyElement(elmntMenu);
             click(elmntMenu);
             blResult = verifyElement(elmntCTMenu);
-            click(elmntCTMenu);
-            waitForSeconds(2);
+            //click(elmntCTMenu);
+            jsClickScroll(elmntCTMenu);
+            waitForSeconds(5);
 
 
             // Extract text using Java 8 Streams
@@ -1420,7 +1434,8 @@ public class BestBuyPage extends BasePage {
             blResult = verifyElement(elmntMenu);
             click(elmntMenu);
             blResult = verifyElement(elmntCPMenu);
-            click(elmntCPMenu);
+            //click(elmntCPMenu);
+            jsClickScroll(elmntCPMenu);
             waitForSeconds(2);
 
 
@@ -1495,7 +1510,8 @@ public class BestBuyPage extends BasePage {
             blResult = verifyElement(elmntMenu);
             click(elmntMenu);
             blResult = verifyElement(elmntAHPMenu);
-            click(elmntAHPMenu);
+            //click(elmntAHPMenu);
+            jsClickScroll(elmntAHPMenu);
             waitForSeconds(2);
 
 
@@ -1530,10 +1546,11 @@ public class BestBuyPage extends BasePage {
             jsClickScroll(elmntVGMenu);
             blResult = true;*/
 
-            waitForSeconds(2);
+            waitForSeconds(5);
             blResult = verifyElement(elmntVGMenu);
             click(elmntVGMenu);
-            waitForSeconds(2);
+            //jsClickScroll(elmntVGMenu);
+            waitForSeconds(5);
 
         } catch (Exception e) {
             System.out.println("clickOnVideoGamesMenuSubMenu catch " + blResult);
@@ -1576,7 +1593,8 @@ public class BestBuyPage extends BasePage {
             blResult = verifyElement(elmntMenu);
             click(elmntMenu);
             blResult = verifyElement(elmntVGMenu);
-            click(elmntVGMenu);
+            //click(elmntVGMenu);
+            jsClickScroll(elmntVGMenu);
             waitForSeconds(2);
 
 
@@ -1651,7 +1669,8 @@ public class BestBuyPage extends BasePage {
             blResult = verifyElement(elmntMenu);
             click(elmntMenu);
             blResult = verifyElement(elmntCCDMenu);
-            click(elmntCCDMenu);
+            //click(elmntCCDMenu);
+            jsClickScroll(elmntCCDMenu);
             waitForSeconds(2);
 
 
@@ -1726,7 +1745,8 @@ public class BestBuyPage extends BasePage {
             blResult = verifyElement(elmntMenu);
             click(elmntMenu);
             blResult = verifyElement(elmntHFOMenu);
-            click(elmntHFOMenu);
+            //click(elmntHFOMenu);
+            jsClickScroll(elmntHFOMenu);
             waitForSeconds(2);
 
 
@@ -1803,7 +1823,8 @@ public class BestBuyPage extends BasePage {
             blResult = verifyElement(elmntMenu);
             click(elmntMenu);
             blResult = verifyElement(elmntSHSMenu);
-            click(elmntSHSMenu);
+            //click(elmntSHSMenu);
+            jsClickScroll(elmntSHSMenu);
             waitForSeconds(2);
 
 
@@ -1879,7 +1900,8 @@ public class BestBuyPage extends BasePage {
             blResult = verifyElement(elmntMenu);
             click(elmntMenu);
             blResult = verifyElement(elmntCEGMenu);
-            click(elmntCEGMenu);
+            //click(elmntCEGMenu);
+            jsClickScroll(elmntCEGMenu);
             waitForSeconds(2);
 
 
@@ -2037,7 +2059,8 @@ public class BestBuyPage extends BasePage {
             blResult = verifyElement(elmntMenu);
             click(elmntMenu);
             blResult = verifyElement(elmntHWFMenu);
-            click(elmntHWFMenu);
+            //click(elmntHWFMenu);
+            jsClickScroll(elmntHWFMenu);
             waitForSeconds(2);
 
 
@@ -2113,7 +2136,8 @@ public class BestBuyPage extends BasePage {
             blResult = verifyElement(elmntMenu);
             click(elmntMenu);
             blResult = verifyElement(elmntOLMenu);
-            click(elmntOLMenu);
+            //click(elmntOLMenu);
+            jsClickScroll(elmntOLMenu);
             waitForSeconds(2);
 
 
@@ -2188,7 +2212,8 @@ public class BestBuyPage extends BasePage {
             blResult = verifyElement(elmntMenu);
             click(elmntMenu);
             blResult = verifyElement(elmntTGCMenu);
-            click(elmntTGCMenu);
+            //click(elmntTGCMenu);
+            jsClickScroll(elmntTGCMenu);
             waitForSeconds(2);
 
 
@@ -2265,7 +2290,8 @@ public class BestBuyPage extends BasePage {
             blResult = verifyElement(elmntMenu);
             click(elmntMenu);
             blResult = verifyElement(elmntETMenu);
-            click(elmntETMenu);
+            //click(elmntETMenu);
+            jsClickScroll(elmntETMenu);
             waitForSeconds(2);
 
 
@@ -2344,7 +2370,8 @@ public class BestBuyPage extends BasePage {
             blResult = verifyElement(elmntMenu);
             click(elmntMenu);
             blResult = verifyElement(elmntNFMenu);
-            click(elmntNFMenu);
+            //click(elmntNFMenu);
+            jsClickScroll(elmntNFMenu);
             waitForSeconds(2);
 
 
@@ -2497,16 +2524,16 @@ public class BestBuyPage extends BasePage {
                 WebElement elmntSubMenuURL = waitForElement(By.xpath(elmntFTOTPageURL.replace("<<REPLACEMENT>>", text)));
                 blResult = verifyElement(elmntSubMenuURL);
                 jsClickScroll(elmntSubMenuURL);
-                waitForSeconds(2);
+                waitForSeconds(5);
 
                 strDealsCurrentURL = getCurrentUrl();
                 //Add the current page URL in an Array List
                 dealsSubMenuURL.add(strDealsCurrentURL);
                 //Click on the BestBuy Logo
                 navigateBackPage();
-                waitForSeconds(2);
+                waitForSeconds(5);
                 jsClickScroll(elmntBestBuyLogo);
-                waitForSeconds(2);
+                waitForSeconds(5);
 
                 System.out.println("elmntSubMenuURL value is " + elmntSubMenuURL);
                 System.out.println("strcurrentUrl value is " + strDealsCurrentURL);
@@ -2561,16 +2588,16 @@ public class BestBuyPage extends BasePage {
                 WebElement elmntSubMenuURL = waitForElement(By.xpath(elmntFTTCPageURL.replace("<<REPLACEMENT>>", text)));
                 blResult = verifyElement(elmntSubMenuURL);
                 jsClickScroll(elmntSubMenuURL);
-                waitForSeconds(2);
+                waitForSeconds(5);
 
                 strDealsCurrentURL = getCurrentUrl();
                 //Add the current page URL in an Array List
                 dealsSubMenuURL.add(strDealsCurrentURL);
                 //Click on the BestBuy Logo
                 navigateBackPage();
-                waitForSeconds(2);
+                waitForSeconds(5);
                 jsClickScroll(elmntBestBuyLogo);
-                waitForSeconds(2);
+                waitForSeconds(5);
 
                 System.out.println("elmntSubMenuURL value is " + elmntSubMenuURL);
                 System.out.println("strcurrentUrl value is " + strDealsCurrentURL);
@@ -4019,7 +4046,7 @@ public class BestBuyPage extends BasePage {
 
             //Click Search Icon
             blResult = click(elmntSearchIcon);
-            waitForSeconds(2);
+            waitForSeconds(5);
 
         } catch (Exception e) {
             System.out.println("enterTheProductNameInSearchBoxAndClickSearch catch " + blResult);

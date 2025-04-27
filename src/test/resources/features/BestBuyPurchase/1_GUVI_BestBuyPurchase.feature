@@ -325,7 +325,7 @@ Feature: BestBuy Purchase
       | &LAPTOPNAMEMODELSKU& | &LAPTOPDEVICE& | &GUESTEMAIL& | &GUESTPHONENUMBER& | &CARDNUMBER& | &DELIVERYADDRESS& | &ORDERSUCCESSMESSAGE& |
 
 
-  @WEB @TEST12 @TC_ID_1033
+  @WEB @TEST1 @TC_ID_1033
   Scenario Outline: Search a Wrong Product from search bar and verify message
     Given As a user i should click on BestBuy Button
     When I should enter the product name "<WrongProductName>" in Search Box and Click Search

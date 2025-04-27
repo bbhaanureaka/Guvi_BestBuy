@@ -45,7 +45,7 @@ Feature: BestBuy Purchase
       | DealsPageUrl   |
       | &DEALSPAGEURL& |
 
-  @WEB @TEST1 @TC_ID_1009
+  @WEB @TEST12 @TC_ID_1009
   Scenario Outline: Navigate to Deals Menu , Support and Services Sub-Menu and its Pages and Validate URL
     Given As a user i should click on Menu Button
     When I should click on Support and Services Sub-menu
@@ -325,7 +325,7 @@ Feature: BestBuy Purchase
       | &LAPTOPNAMEMODELSKU& | &LAPTOPDEVICE& | &GUESTEMAIL& | &GUESTPHONENUMBER& | &CARDNUMBER& | &DELIVERYADDRESS& | &ORDERSUCCESSMESSAGE& |
 
 
-  @WEB @TEST12 @TC_ID_1033
+  @WEB @TEST1 @TC_ID_1033
   Scenario Outline: Search a Wrong Product from search bar and verify message
     Given As a user i should click on BestBuy Button
     When I should enter the product name "<WrongProductName>" in Search Box and Click Search

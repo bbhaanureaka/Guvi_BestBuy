@@ -1,0 +1,57 @@
+Total commands to push a new project to Git and from Git to Github with "main" branch as "master"
+-----------------------------------------------------------------------------------------------------
+
+1) git init
+2) git branch -M main
+3) git status 
+4) git remote add origin https://github.com/bbhaanureaka/Guvi_BestBuy.git
+5) git status 
+6) git add foldername
+7) git status
+8) git commit -a -m "add commit comments here"
+9) git status
+10) git branch -M main
+11) git push -u origin main
+
+12) After rename main to master branch in Github, type
+-> git branch -M master
+-> git push origin master (or) git push -u origin master
+
+13) Create New Branch, Write Script and move to GitHub
+
+git checkout -b BestBuyChromeBrowser
+git status
+
+Write Script in Intellij IDE
+
+git add "filename"
+git commit -a -m "add comments"
+git push -u origin BestBuyChromeBrowser
+
+//Go to master branch,pull all code from master branch, merge new branch code with master branch and push code to master branch
+
+git checkout master
+git pull origin master
+git merge BestBuyChromeBrowser
+git push origin master
+
+git pull origin master
+-----------------------------------------------------------------------------------------------------------------------------------
+
+ggit checkout -b BestBuyFirefoxBrowser
+git status
+
+Write Script in Intellij IDE
+
+git add "filename"
+git commit -a -m "add comments"
+git push -u origin BestBuyFirefoxBrowser
+
+//Go to master branch,pull all code from master branch, merge new branch code with master branch and push code to master branch
+
+git checkout master
+git pull origin master
+git merge BestBuyFirefoxBrowser
+git push origin master
+
+git pull origin master
